@@ -6,7 +6,7 @@ ericnishio.github.io
 Requirements: *Ruby*
 
 ```
-$ gem install jekyll
+$ gem install bundler jekyll
 $ bundle install
 ```
 
