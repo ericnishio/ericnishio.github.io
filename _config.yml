@@ -7,11 +7,14 @@ google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
   - name:         Home
+    dir:          /
     url:          /
   - name:         Blog
-    url:          /blog
+    dir:          /blog
+    url:          /blog/
   - name:         Projects
-    url:          /projects
+    dir:          /projects
+    url:          /projects/
 highlighter:      pygments
 permalink:        /blog/:title/
 markdown:         redcarpet

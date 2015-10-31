@@ -18,11 +18,11 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         {% for link in site.links %}
-          <li>
-            <a target="{% if link.external %}_blank{% else %}_top{% endif %}"
-               class="main"
-               href="{{ link.url }}">{{ link.name }}</a>
-          </li>
+          {% if page.dir == link.dir %}
+          <li class="active"><a class="main" href="{{ link.url }}">{{ link.name }}</a></li>
+          {% else %}
+          <li><a class="main" href="{{ link.url }}">{{ link.name }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
     </div>
