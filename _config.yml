@@ -17,5 +17,7 @@ markdown:         redcarpet
 redcarpet:
   extensions:
     - smart
+sass:
+  style: compressed
 exclude:
   - vendor
