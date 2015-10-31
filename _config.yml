@@ -7,11 +7,10 @@ facebook_appid:   # appid for like button, remove from /_includes/share.html if 
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
+  - name:         Home
+    url:          /
   - name:         Blog
     url:          /blog
-  - name:         Email
-    url:          mailto:foo@example.com
-    external:     true
 highlighter:      pygments
 permalink:        pretty
 markdown:         redcarpet

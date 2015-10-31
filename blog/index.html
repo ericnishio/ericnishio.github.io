@@ -1,14 +1,23 @@
-<html>
-  <head>
-    <meta content="{{ site.title }}" property="og:title"/>
-    <title>{{ site.description }} - {{ site.title }}</title>
-    {% include head.html %}
-  </head>
-  <body>
-    {% include header.html %}
-    <div class="blog-ctrl">
-      {{ content }}
-    </div>
-    {% include footer.html %}
-  </body>
-</html>
+---
+layout: wide
+title: Blog
+subtitle: My notes, tips, and lessons learned
+---
+
+<div class="blog-ctrl">
+  <div class="blog-posts">
+    {% for post in site.posts %}
+    <article class="blog-post">
+      <a href="{{ post.url }}">
+        <div class="blog-post-teaser">
+          <div class="teaser-inner">
+            <h2 class="teaser-heading">
+              {{ post.title }}
+            </h2>
+          </div>
+        </div>
+      </a>
+    </article>
+    {% endfor %}
+  </div>
+</div>
