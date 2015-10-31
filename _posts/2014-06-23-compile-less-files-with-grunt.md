@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Compile LESS Files with Grunt
-permalink: /blog/compile-less-files-with-grunt
+permalink: /blog/compile-less-files-with-grunt/
 ---
 
 Grunt is a Node task runner that can be configured to detect file changes and
