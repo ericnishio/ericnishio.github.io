@@ -1,0 +1,100 @@
+{
+  "_args": [
+    [
+      "font-awesome@~4.1.0",
+      "/Users/eric/Projects/ericnishio.github.io"
+    ]
+  ],
+  "_from": "font-awesome@>=4.1.0 <4.2.0",
+  "_id": "font-awesome@4.1.0",
+  "_inCache": true,
+  "_location": "/font-awesome",
+  "_npmUser": {
+    "email": "julian@goodafternoon.co",
+    "name": "juliankrispel"
+  },
+  "_npmVersion": "1.3.14",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "font-awesome",
+    "raw": "font-awesome@~4.1.0",
+    "rawSpec": "~4.1.0",
+    "scope": null,
+    "spec": ">=4.1.0 <4.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/font-awesome/-/font-awesome-4.1.0.tgz",
+  "_shasum": "20056d96029c86b8e889c0b2526f2ae2656e24db",
+  "_shrinkwrap": null,
+  "_spec": "font-awesome@~4.1.0",
+  "_where": "/Users/eric/Projects/ericnishio.github.io",
+  "author": {
+    "email": "dave@fontawesome.io",
+    "name": "Dave Gandy",
+    "url": "http://twitter.com/davegandy"
+  },
+  "bugs": {
+    "url": "http://github.com/FortAwesome/Font-Awesome/issues"
+  },
+  "contributors": [
+    {
+      "name": "Rob Madole",
+      "url": "http://twitter.com/robmadole"
+    },
+    {
+      "name": "Geremia Taglialatela",
+      "url": "http://twitter.com/gtagliala"
+    },
+    {
+      "name": "Travis Chase",
+      "url": "http://twitter.com/supercodepoet"
+    }
+  ],
+  "dependencies": {},
+  "description": "The iconic font and CSS framework",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "20056d96029c86b8e889c0b2526f2ae2656e24db",
+    "tarball": "http://registry.npmjs.org/font-awesome/-/font-awesome-4.1.0.tgz"
+  },
+  "engines": {
+    "node": ">=0.10.3"
+  },
+  "homepage": "http://fontawesome.io/",
+  "installable": true,
+  "keywords": [
+    "awesome",
+    "bootstrap",
+    "font",
+    "font",
+    "fontawesome",
+    "icon"
+  ],
+  "licenses": [
+    {
+      "type": "OFL-1.1",
+      "url": "http://scripts.sil.org/OFL"
+    },
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.html"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "juliankrispel",
+      "email": "julian@goodafternoon.co"
+    }
+  ],
+  "name": "font-awesome",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FortAwesome/Font-Awesome.git"
+  },
+  "version": "4.1.0"
+}

@@ -17,3 +17,5 @@ markdown:         redcarpet
 redcarpet:
   extensions:
     - smart
+exclude:
+  - vendor
