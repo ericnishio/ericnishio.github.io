@@ -1,7 +1,6 @@
-title:            Eric Nishio
+title:            ericnish.io
 description:      A front-end developer's portfolio and blog
 url:              # Site url.
-signoff:          Eric Nishio
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
@@ -11,6 +10,8 @@ links:
     url:          /
   - name:         Blog
     url:          /blog
+  - name:         Projects
+    url:          /projects
 highlighter:      pygments
 permalink:        /blog/:title/
 markdown:         redcarpet
@@ -21,3 +22,7 @@ sass:
   style: compressed
 exclude:
   - vendor
+
+collections:
+  projects:
+    output: false
