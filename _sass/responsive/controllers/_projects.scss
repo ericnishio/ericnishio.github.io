@@ -1,0 +1,16 @@
+@media (max-width: $screen-xs-max) {
+  .projects-ctrl {
+    .project-url {
+      font-size: 18px;
+      word-break: break-all;
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .projects-ctrl {
+    .project-url {
+      font-size: 18px;
+    }
+  }
+}

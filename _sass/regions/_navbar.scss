@@ -1,0 +1,20 @@
+.navbar {
+  margin-bottom: 0;
+
+  .brand-link {
+    text-decoration: none;
+  }
+
+  .navbar-nav {
+    font-size: 24px;
+
+    & > li {
+      & > a {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,143 @@
+/*
+Typography
+
+Styleguide 2
+*/
+
+/*
+Headings
+
+Markup:
+<h1 class="h1 {$modifiers}">Heading 1</h1>
+<h2 class="h2 {$modifiers}">Heading 2</h2>
+<h2 class="h3 {$modifiers}">Heading 2</h2>
+
+Styleguide 2.1
+*/
+.h1 {
+  font-family: $pt-serif-font;
+  font-size: 60px;
+  font-weight: 300;
+  margin: 0;
+  text-shadow: 0 1px 1px $gray-medium;
+}
+
+.h2 {
+  color: $gray-medium;
+  font-famiy: $clear-sans-thin-font;
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.h3 {
+  font-family: $clear-sans-thin-font;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.body-subheading {
+  font-family: $pt-serif-font;
+  font-size: 40px;
+}
+
+/*
+Paragraphs
+
+Markup:
+<p class="p">Lorem ipsum dolor sit amet.</p>
+<p class="p">Lorem ipsum <em class="em">dolor</em> sit amet.</p>
+
+Styleguide 2.2
+*/
+.p {
+  font-family: $font-family-sans-serif;
+}
+
+p, ul, ol {
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.em {
+  color: $gray-dark;
+  font-style: normal;
+  text-shadow: 1px 0 2px $gray-medium;
+}
+
+/*
+Links
+
+Markup:
+<a href="#">Link</a>
+
+:hover - Hover
+:active - Active
+:focus - Focus
+
+Styleguide 2.3
+*/
+
+
+/*
+Lists
+
+Markup:
+<ul class="ul"><li class="li">First item</li><li class="li">Second item</li><li class="li">Third item</li></ul>
+
+Styleguide 2.4
+*/
+.ul {
+  list-style-type: none;
+  padding-left: 50px;
+}
+
+.li {
+  position: relative;
+
+  &:before {
+    content: "\e080";
+    color: $gray-light;
+    font-family: $glyphicons-halflings-font;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-right: 10px;
+    position: absolute;
+    left: -26px;
+  }
+}
+
+/*
+Blockquotes
+
+Markup:
+<blockquote class="blockquote">Foo bar baz.</blockquote>
+
+Styleguide 2.5
+*/
+.blockquote {
+  border-left: 5px solid #ddd;
+  color: $gray-light;
+  font-size: inherit;
+}
+
+/*
+Code
+
+Markup:
+<code>var foo = 'bar';</code>
+
+Styleguide 2.6
+*/
+.code {
+  background-color: $gray-dark;
+  color: $green-light;
+  font-family: $inconsolata-font;
+  font-size: 16px;
+  line-height: 1.3;
+}

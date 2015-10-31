@@ -1,0 +1,10 @@
+.projects-ctrl {
+  .projects {
+    @include make-md-column(6);
+    @include make-md-column-offset(3);
+  }
+
+  .project {
+    @extend .well;
+  }
+}

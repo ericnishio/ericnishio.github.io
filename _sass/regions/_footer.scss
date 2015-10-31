@@ -1,0 +1,10 @@
+footer {
+  border-top: 1px solid $hr-color-primary;
+  margin-top: $header-footer-gutter;
+
+  .footer-content {
+    border-top: 1px solid $hr-color-secondary;
+    padding: 30px 0;
+    text-align: center;
+  }
+}

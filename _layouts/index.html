@@ -1,16 +1,22 @@
 <html>
   <head>
-    <meta content='{{ site.title }}' property='og:title' />
-    <title>{{ site.title }}</title>
+    <meta content="{{ site.title }}" property="og:title"/>
+    <title>{{ site.description }} - {{ site.title }}</title>
     {% include head.html %}
   </head>
   <body>
     {% include header.html %}
-    <div id='container'>
-      {% include links.html %}
-      <div class="content">
-        {{ content }}
+    <div class="home-ctrl">
+      <div class="header">
+        <div class="header-content">
+            <div class="container">
+              <h1 class="header-title">ericnish.io</h1>
+              <span class="header-lead">A front-end developer’s portfolio and blog</span>
+            </div>
+          </div>
       </div>
+
+      {{ content }}
     </div>
     {% include footer.html %}
   </body>

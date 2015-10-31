@@ -1,0 +1,6 @@
+.well {
+  @extend .well;
+  @include box-shadow(none);
+  border: none;
+  border-radius: 0;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ericnishio.github.io",
+  "version": "1.0.0",
+  "description": "A front-end developer's portfolio and blog",
+  "main": "index.html",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericnishio/ericnishio.github.io.git"
+  },
+  "author": "Eric Nishio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericnishio/ericnishio.github.io/issues"
+  },
+  "homepage": "https://github.com/ericnishio/ericnishio.github.io#readme",
+  "devDependencies": {
+    "bootstrap-sass": "~3.1.1",
+    "font-awesome": "~4.1.0"
+  }
+}

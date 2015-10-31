@@ -1,0 +1,17 @@
+.brand-logo {
+  text-decoration: none;
+  background-color: $brand-logo-background;
+  border-radius: 50%;
+  margin: 10px 0;
+  height: $navbar-brand-logo-size;
+  width: $navbar-brand-logo-size;
+
+  .logo-text {
+    color: #fff;
+    font-family: $pt-serif-font;
+    font-size: 30px;
+    line-height: $navbar-brand-logo-size;
+    vertical-align: middle;
+    text-align: center;
+  }
+}

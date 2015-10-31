@@ -1,0 +1,11 @@
+@media (max-width: $screen-sm-max) {
+  .navbar {
+    .brand-logo {
+      margin-left: 10px;
+    }
+
+    .navbar-nav {
+      font-size: 20px;
+    }
+  }
+}

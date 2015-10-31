@@ -1,0 +1,21 @@
+.not-found {
+  display: table;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  .middle-container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+    .brand-logo {
+      margin: 30px auto 20px;
+    }
+
+    .heading {
+      @extend .h1;
+      margin-bottom: 10px;
+    }
+  }
+}

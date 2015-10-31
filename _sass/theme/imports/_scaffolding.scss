@@ -1,0 +1,19 @@
+body {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.56;
+}
+
+hr {
+  border-top: 1px solid $hr-color-primary;
+  border-bottom: 1px solid $hr-color-secondary;
+}
+
+.container {
+  @extend .container;
+
+  .content {
+    @include make-md-column(8);
+    @include make-md-column-offset(2);
+  }
+}

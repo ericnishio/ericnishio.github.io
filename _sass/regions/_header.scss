@@ -1,0 +1,38 @@
+.header {
+  border-bottom: 1px solid $hr-color-secondary;
+  margin-bottom: $header-footer-gutter;
+  text-align: center;
+
+  .header-content {
+    border-bottom: 1px solid $hr-color-primary;
+    padding: $header-footer-gutter 0;
+
+    .header-title {
+      @extend .h1;
+
+      &:before,
+      &:after {
+        font-family: $clear-sans-regular-font;
+        font-weight: 100;
+        color: $gray;
+        font-size: 35px;
+        position: relative;
+        top: -7px;
+      }
+
+      &:before {
+        content: "\003c";
+        margin-right: 3px;
+      }
+
+      &:after {
+        content: "/\003e";
+        margin-left: 3px;
+      }
+    }
+
+    .header-lead {
+      @extend .h2;
+    }
+  }
+}

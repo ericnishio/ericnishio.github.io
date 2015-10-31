@@ -1,0 +1,63 @@
+.submit {
+  @extend .btn;
+  @extend .btn-lg;
+  @extend .btn-primary;
+  @extend .btn-block;
+}
+
+.form-control {
+  -webkit-appearance: none;
+}
+
+.input-group {
+  .input-group-addon {
+    border-radius: $input-border-radius;
+
+    & + input {
+      border-left: 0;
+    }
+  }
+}
+
+input,
+textarea {
+  &:focus {
+    @include box-shadow(none);
+    outline: none;
+  }
+}
+
+.form-control {
+  @extend .form-control;
+  @include box-shadow(none);
+  font-size: 18px;
+  font-weight: 300;
+
+  &:focus {
+    @include box-shadow(none);
+  }
+}
+
+.body ul.form-messages {
+  @extend .well;
+  padding-left: 19px;
+  text-align: center;
+
+  li {
+    padding: 0;
+
+    &:before {
+      display: none;
+    }
+  }
+}
+
+.body ul.form-messages-success {
+  background-color: $green-lighter;
+  color: $green-dark;
+}
+
+.body ul.form-messages-error {
+  background-color: $red-lightest;
+  color: $red-dark;
+}

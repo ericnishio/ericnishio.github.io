@@ -1,0 +1,13 @@
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .blog-ctrl {
+    .blog-posts {
+      .blog-post {
+        .blog-post-teaser {
+          .teaser-heading {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

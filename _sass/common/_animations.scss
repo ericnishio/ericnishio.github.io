@@ -1,0 +1,105 @@
+.animate-hide-fade {
+  opacity: 1;
+
+  &.ng-hide-add,
+  &.ng-hide-add-active,
+  &.ng-hide-remove,
+  &.ng-hide-remove-active {
+    @include transition(all linear 0.2s);
+  }
+
+  &.ng-hide-add,
+  &.ng-hide-remove {
+    display: inline-block !important;
+  }
+
+  &.ng-hide {
+    opacity: 0;
+  }
+}
+
+.spin {
+  @include animation-name(spin);
+  @include animation-duration(3000ms);
+  @include animation-iteration-count(infinite);
+  @include animation-timing-function(linear);
+}
+
+@-ms-keyframes spin {
+  from { -ms-transform: rotate(0deg); }
+  to { -ms-transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.animated {
+  @include animation-duration(1s);
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  &.infinite {
+    @include animation-iteration-count(infinite);
+  }
+
+  &.hinge {
+    @include animation-duration(2s);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  @include animation-name(bounce);
+}

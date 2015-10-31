@@ -1,0 +1,223 @@
+/*
+Buttons
+
+Styleguide 1
+*/
+
+/*
+Base button classes
+
+Base button classes provide partial styles for building distinctive button classes.
+
+Markup:
+<button class="button-base {$modifiers}">Button</button>
+<button class="button-base button-color-primary {$modifiers}">Button</button>
+<button class="button-base button-color-success {$modifiers}">Button</button>
+<button class="button-base button-color-link {$modifiers}">Button</button>
+
+:hover - Hover
+:focus - Focus
+:active - Hover
+
+Styleguide 1.1
+*/
+.button-base {
+  @extend .btn;
+  font-weight: 300;
+  border: 0;
+  border-radius: 3px;
+
+  &:focus,
+  &:active:focus {
+    outline: none;
+  }
+}
+
+/*
+Button sizes
+
+Markup:
+<button class="button-base button-color-default {$modifiers}">Button</button>
+<button class="button-base button-color-primary {$modifiers}">Button</button>
+<button class="button-base button-color-success {$modifiers}">Button</button>
+<button class="button-base button-color-link {$modifiers}">Button</button>
+
+.button-size-large - Large
+.button-size-small - Small
+.button-size-tiny - Tiny
+.button-block - Block
+
+Styleguide 1.2
+*/
+.button-size-large {
+  @extend .btn-lg;
+}
+
+.button-size-small {
+  @extend .btn-sm;
+}
+
+.button-size-tiny {
+  @extend .btn-xs;
+}
+
+.button-block {
+  @extend .btn-block;
+}
+
+/*
+Button shapes
+
+Markup:
+<button class="button-base {$modifiers}">Button</button>
+<button class="button-base button-size-small {$modifiers}">Button</button>
+<button class="button-base button-size-tiny {$modifiers}">Button</button>
+
+.button-shape-sharp - Sharp
+.button-shape-round - Round
+
+Styleguide 1.3
+*/
+.button-shape-sharp {
+  border-radius: 0;
+}
+
+.button-shape-round {
+  border-radius: 20px;
+}
+
+/*
+Button colors
+
+Markup:
+<button class="button-base {$modifiers}">Button</button>
+
+.button-color-primary - Primary
+.button-color-success - Success
+.button-color-warning - Warning
+.button-color-danger - Danger
+.button-color-info - Danger
+.button-color-link - Link
+
+Styleguide 1.4
+*/
+.button-color-default {
+  @extend .btn-default;
+}
+
+.button-color-primary {
+  @extend .btn-primary;
+}
+
+.button-color-success {
+  @extend .btn-success;
+}
+
+.button-color-warning {
+  @extend .btn-warning;
+}
+
+.button-color-danger {
+  @extend .btn-danger;
+}
+
+.button-color-info {
+  @extend .btn-info;
+}
+
+.button-color-link {
+  @extend .btn-link;
+  font-weight: 300;
+}
+
+/*
+Button color states
+
+Markup:
+<button class="button-base button-size-tiny {$modifiers}">Button</button>
+<button class="button-base button-size-tiny button-color-primary {$modifiers}">Button</button>
+<button class="button-base button-size-tiny button-color-success {$modifiers}">Button</button>
+<button class="button-base button-size-tiny button-color-warning {$modifiers}">Button</button>
+<button class="button-base button-size-tiny button-color-danger {$modifiers}">Button</button>
+<button class="button-base button-size-tiny button-color-info {$modifiers}">Button</button>
+<button class="button-base button-size-tiny button-color-link {$modifiers}">Button</button>
+
+:hover - Hover
+:active - Active
+:focus - Focus
+
+Styleguide 1.5
+*/
+
+/*
+Regular buttons
+
+Markup:
+<button class="button">Default</button>
+<button class="button-primary">Primary</button>
+<button class="button-danger">Danger</button>
+<button class="button-link">Link</button>
+
+Styleguide 1.6
+*/
+.button {
+  @extend .button-base;
+  @extend .button-shape-sharp;
+}
+
+.button-primary {
+  @extend .button-base;
+  @extend .button-color-primary;
+  @extend .button-shape-sharp;
+}
+
+.button-danger {
+  @extend .button-base;
+  @extend .button-color-danger;
+  @extend .button-shape-sharp;
+}
+
+.button-link {
+  @extend .button-base;
+  @extend .button-color-link;
+  @extend .button-shape-sharp;
+}
+
+/*
+Large buttons
+
+Markup:
+<button class="button-large">Default</button>
+<button class="button-primary-large">Primary</button>
+<button class="button-danger-large">Danger</button>
+<button class="button-link-large">Link</button>
+
+Styleguide 1.7
+*/
+.button-large {
+  @extend .button;
+  @extend .button-size-large;
+  @extend .button-shape-sharp;
+}
+
+.button-primary-large {
+  @extend .button-primary;
+  @extend .button-size-large;
+  @extend .button-shape-sharp;
+}
+
+.button-danger-large {
+  @extend .button-danger;
+  @extend .button-size-large;
+  @extend .button-shape-sharp;
+}
+
+.button-link-large {
+  @extend .button-link;
+  @extend .button-size-large;
+  @extend .button-shape-sharp;
+}
+
+.button-primary-large.button-block {
+  margin-bottom: 20px;
+}

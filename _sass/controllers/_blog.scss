@@ -1,0 +1,67 @@
+.blog-ctrl {
+  .new-blog-post-container {
+    @include make-row();
+
+    .new-blog-post-inner {
+      @include make-md-column(4);
+      @include make-md-column-offset(4);
+
+      label {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .blog-posts {
+    @include make-row();
+
+    .blog-post {
+      @include make-sm-column(6);
+      @include make-md-column(3);
+      text-align: center;
+
+      a {
+        color: $text-color;
+        text-decoration: none;
+      }
+
+      .blog-post-teaser {
+        @extend .well;
+        display: table;
+        height: 270px;
+        width: 100%;
+        padding: 50px 19px;
+        overflow: hidden;
+
+        &:hover {
+          background-color: $brand-primary;
+          color: #fff;
+
+          .teaser-heading,
+          .post-body {
+            color: #fff;
+          }
+        }
+
+        &.not-published {
+          opacity: 0.3;
+        }
+
+        .teaser-inner {
+          display: table-cell;
+          vertical-align: middle;
+        }
+
+        .teaser-heading {
+          font-size: 26px;
+          line-height: 1.2;
+          margin: 0;
+          margin-bottom: 10px;
+          padding: 0 20px;
+        }
+      }
+    }
+  }
+}

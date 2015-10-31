@@ -1,0 +1,39 @@
+.body {
+  @extend .container;
+
+  .header-title {
+    @extend .h1;
+  }
+
+  .header-lead {
+    @extend .h2;
+  }
+
+  .post {
+    h1, h2, h3, h4, h5, h6 {
+      @extend .body-subheading;
+      margin: 40px 0 35px;
+    }
+  }
+
+  pre {
+    background-color: $gray-dark;
+    border: 7px solid #fff;
+    border-radius: 0;
+    font-size: 14px;
+    margin: 40px 0;
+    padding: 20px;
+  }
+
+  em {
+    @extend .em;
+  }
+
+  ul {
+    @extend .ul;
+
+    li {
+      @extend .li;
+    }
+  }
+}
