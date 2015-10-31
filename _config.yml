@@ -12,7 +12,7 @@ links:
   - name:         Blog
     url:          /blog
 highlighter:      pygments
-permalink:        pretty
+permalink:        /blog/:title/
 markdown:         redcarpet
 redcarpet:
   extensions:
