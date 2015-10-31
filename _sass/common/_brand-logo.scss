@@ -8,10 +8,17 @@
 
   .logo-text {
     color: #fff;
+    display: table-cell;
     font-family: $pt-serif-font;
     font-size: 30px;
     line-height: $navbar-brand-logo-size;
     vertical-align: middle;
     text-align: center;
+    width: 80px;
+    height: 80px;
+
+    span {
+      margin-top: -1px;
+    }
   }
 }
