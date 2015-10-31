@@ -1,7 +1,7 @@
 <html>
   <head>
-    <meta content='{{ page.title }} - {{ site.title }}' name='title' />
-    <meta content='{{ page.title }} - {{ site.title }}' name='og:title' />
+    <meta content="{{ page.title }} - {{ site.title }}" name="title" />
+    <meta content="{{ page.title }} - {{ site.title }}" name="og:title" />
     <title>{{ page.title }} - {{ site.title }}</title>
     {% include head.html %}
   </head>
@@ -10,15 +10,13 @@
     <div class="home-ctrl">
       <div class="header">
         <div class="header-content">
-            <div class="container">
-              <h1 class="header-title">{{ page.title }}</h1>
-              {% if page.subtitle %}
-              <span class="header-lead">
-                {{ page.subtitle }}
-              </span>
-              {% endif %}
-            </div>
+          <div class="container">
+            <h1 class="header-title">{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <span class="header-lead">{{ page.subtitle }}</span>
+            {% endif %}
           </div>
+        </div>
       </div>
       <div class="body">
         {{ content }}
