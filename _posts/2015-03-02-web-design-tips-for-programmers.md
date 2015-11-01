@@ -33,10 +33,10 @@ brands inspirational.
 Pick two primary colors and add in a dozen different shades, including grays,
 and complementary colors. Use
 [Adobe’s color wheel](https://color.adobe.com/create/color-wheel/) and
-the [Coolors](https://coolors.co) tool to try various combinations. Try not to
-saturate your color scheme by adding too many distinct colors. Stay minimal.
-If you have no clue, feel free to “steal” colors from your scrapbook with an
-eyedropper tool and slightly adjust their RGB values.
+the [Coolors](https://coolors.co) tool to experiment with various combinations.
+Try not to saturate your color scheme by adding too many distinct colors. Stay
+minimal. If you have no clue, feel free to “steal” colors from your scrapbook
+with an eyedropper tool and slightly adjust their RGB values.
 
 ## 4. Don’t go too dark or too light
 
