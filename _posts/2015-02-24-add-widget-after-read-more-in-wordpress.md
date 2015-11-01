@@ -28,8 +28,8 @@ add_action('widgets_init', 'YOUR_THEME_widgets_init');
 function YOUR_THEME_widgets_init()
 {
   register_sidebar(array(
-    'name' => 'After More Link',
-    'id' => 'after_more_link',
+    'name'          => 'After More Link',
+    'id'            => 'after_more_link',
     'before_widget' => '',
     'after_widget'  => '',
     'before_title'  => '',

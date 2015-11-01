@@ -23,16 +23,21 @@ angular.module('App').factory('promiseFactory', function($q) {
     decorate: function(promise) {
       promise.success = function(callback) {
         promise.then(callback);
+
         return promise;
       };
+
       promise.error = function(callback) {
         promise.then(null, callback);
+
         return promise;
       };
     },
     defer: function() {
       var deferred = $q.defer();
+
       this.decorate(deferred.promise);
+
       return deferred;
     }
   };
@@ -59,12 +64,15 @@ angular.module('App').factory('authManager', function($http, promiseFactory) {
   return {
     login: function(username, password) {
       var dfd = promiseFactory.defer();
-      $http.post('/api/login', {username: username, password: password})
+
+      $http
+        .post('/api/login', {username: username, password: password})
         .then(function(res) {
-          dfd.resolve(res);
+          return dfd.resolve(res);
         }, function(err) {
-          dfd.reject(err);
+          return dfd.reject(err);
         });
+
       return dfd.promise;
     }
   };
@@ -77,7 +85,8 @@ controller.
 {% highlight javascript %}
 angular.module('App').controller('LoginCtrl', function($scope, authManager) {
   $scope.login = function() {
-    authManager.login($scope.username, $scope.password)
+    authManager
+      .login($scope.username, $scope.password)
       .success(function(res) {
         sessionStorage.setItem('authToken', res.authToken);
       })

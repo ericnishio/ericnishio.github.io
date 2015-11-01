@@ -24,6 +24,7 @@ angular.module('YOUR_MODULE').config(function($provide) {
 
     $delegate.prototype.$add = function(newData) {
       newData.created_at = $window.Firebase.ServerValue.TIMESTAMP;
+
       return add.call(this, newData);
     };
 
@@ -44,6 +45,7 @@ angular.module('YOUR_MODULE').config(function($provide) {
 
     $delegate.prototype.$save = function() {
       this.modified_at = $window.Firebase.ServerValue.TIMESTAMP;
+
       return save.call(this);
     };
 
