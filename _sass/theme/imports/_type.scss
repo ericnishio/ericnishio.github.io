@@ -120,10 +120,11 @@ Markup:
 
 Styleguide 2.5
 */
+blockquote,
 .blockquote {
   border-left: 5px solid #ddd;
-  color: $gray-light;
-  font-size: inherit;
+  font-size: 19px;
+  font-style: italic;
 }
 
 /*
