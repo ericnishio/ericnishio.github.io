@@ -3,6 +3,7 @@ description:      A front-end developer's portfolio and blog
 url:              http://ericnish.io
 
 gems:
+  - jekyll-sitemap
   - jekyll-feed
 links:
   - name:         Home
