@@ -4,7 +4,8 @@ title: Remove WWW from URLs in nginx
 permalink: /blog/remove-www-from-urls-on-nginx/
 ---
 
-Simply create two server configurations where the first server name redirects to the second one. No regular expressions needed.
+Simply create two server configurations where the first server name redirects
+to the second one. No regular expressions needed.
 
 {%highlight nginx %}
 server {

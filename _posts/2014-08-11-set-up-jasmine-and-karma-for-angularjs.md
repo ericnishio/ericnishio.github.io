@@ -23,7 +23,9 @@ Create your Karma configuration file:
 $ karma init
 ```
 
-When running init, you can mostly go with the suggested settings (by repeatedly hitting enter). After the init script has completed, you should manually append your project files to the *files* array in *karma.conf.js*, like so:
+When running init, you can mostly go with the suggested settings (by repeatedly
+hitting enter). After the init script has completed, you should manually
+append your project files to the *files* array in *karma.conf.js*, like so:
 
 {% highlight javascript %}
 files: [
@@ -34,9 +36,14 @@ files: [
 ],
 {% endhighlight %}
 
-The above configuration assumes that your application depends on the Angular core and that your main application logic resides in *js/app.js*, and that your Jasmine unit tests are kept in the *tests/* directory. The *angular-mocks.js* file provides some convenient mock services that will make unit testing on Angular easier.
+The above configuration assumes that your application depends on the Angular
+core and that your main application logic resides in *js/app.js*, and that your
+Jasmine unit tests are kept in the *tests/* directory. The *angular-mocks.js*
+file provides some convenient mock services that will make unit testing on
+Angular easier.
 
-To test things out, create an example test file called *example.js* in the *tests/* directory with the following contents:
+To test things out, create an example test file called *example.js* in the
+*tests/* directory with the following contents:
 
 {% highlight javascript %}
 describe('example test', function() {
