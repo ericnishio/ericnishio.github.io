@@ -1,11 +1,10 @@
+---
+title: Not Found
+---
+
 <html>
   <head>
-    <title>Not Found - ericnish.io</title>
-    <link href="/images/favicon.ico" rel="shortcut icon">
-    <link href="/css/main.css" rel="stylesheet" type="text/css"/>
-    <meta content="ericnish.io" property="og:title"/>
-    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+    {% include head.html %}
   </head>
   <body>
     <div class="not-found">
@@ -17,7 +16,7 @@
             </div>
           </div>
         </a>
-        <h1 class="heading">ericnish.io</h1>
+        <h1 class="heading">{{ site.title }}</h1>
         <p>Sorry, the page you requested could not be found.</p>
         <footer>
           <div class="footer-content">

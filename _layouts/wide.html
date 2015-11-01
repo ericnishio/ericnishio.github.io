@@ -1,19 +1,16 @@
 <html>
   <head>
-    <meta content="{{ page.title }} - {{ site.title }}" name="title" />
-    <meta content="{{ page.title }} - {{ site.title }}" name="og:title" />
-    <title>{{ page.title }} - {{ site.title }}</title>
     {% include head.html %}
   </head>
   <body>
-    {% include header.html %}
+    {% include navbar.html %}
     <div class="home-ctrl">
       <div class="header">
         <div class="header-content">
           <div class="container">
-            <h1 class="header-title">{{ page.title }}</h1>
-            {% if page.subtitle %}
-            <span class="header-lead">{{ page.subtitle }}</span>
+            <h1 class="header-title">{{ page.heading }}</h1>
+            {% if page.subheading %}
+            <span class="header-lead">{{ page.subheading }}</span>
             {% endif %}
           </div>
         </div>

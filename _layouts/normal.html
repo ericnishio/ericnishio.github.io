@@ -4,26 +4,21 @@
   </head>
   <body>
     {% include navbar.html %}
-    <div class="blog-post-ctrl">
+    <div class="home-ctrl">
       <div class="header">
         <div class="header-content">
           <div class="container">
-            <h1 class="header-title">{{ page.title }}</h1>
+            <h1 class="header-title">{{ page.heading }}</h1>
+            {% if page.subheading %}
+            <span class="header-lead">{{ page.subheading }}</span>
+            {% endif %}
           </div>
         </div>
       </div>
       <div class="body">
         <div class="row">
           <div class="content">
-            {% include ad.html %}
-            <div class="post">
-              {{ content }}
-            </div>
-            <div class="comments">
-              <div class="comments-inner">
-                {% include disqus.html %}
-              </div>
-            </div>
+            {{ content }}
           </div>
         </div>
       </div>
