@@ -22,7 +22,7 @@ If no widget is present, it will simply do nothing.
 First, let's create a sidebar by copying and pasting the following code into
 your theme's *functions.php* file:
 
-{% highlight php %}
+{% highlight php startinline=true %}
 add_action('widgets_init', 'YOUR_THEME_widgets_init');
 
 function YOUR_THEME_widgets_init()
@@ -40,7 +40,7 @@ function YOUR_THEME_widgets_init()
 
 Then bind the sidebar to the more link placeholder:
 
-{% highlight php %}
+{% highlight php startinline=true %}
 add_filter('the_content', 'widget_added_after_more_link');
 
 function widget_added_after_more_link($text)
