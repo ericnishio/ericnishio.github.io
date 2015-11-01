@@ -2,7 +2,6 @@
 layout: post
 title: Web Design Tips for Programmers
 permalink: /blog/web-design-tips-for-programmers/
-published: false
 ---
 
 I’m not a designer, but I recently redesigned my
@@ -11,7 +10,7 @@ of the techniques I discovered and used in the process.
 
 ## 1. Find inspiration on the web
 
-Before you begin, spend an hour searching for the kinds of designs you like. Do
+Before you begin, spend an hour searching for designs you personally like. Do
 some research on recent web design trends. Take screenshots of design elements
 you like, and stash them in a folder (I save them in Evernote). Start building
 a scrapbook. It will come in handy later when you’re stuck and in need of
@@ -19,23 +18,25 @@ inspiration.
 
 ## 2. Choose two elegant fonts
 
-Use the free Typecast tool to discover appropriate fonts. The fonts should
-complement each other. My rule of thumb is to choose a primary font for large
-bodies of text, and another one for generic UI elements such as sub-headings
-and captions. It can be challenging to find a typeface that beautifully
-renders your brand name (different letter combinations look different with
-certain fonts), but keep experimenting and you’ll eventually find something
-that suits your taste. If you like elegant design, you might find Gucci,
-BVLGARI, Louis Vuitton, Hermès, Rolex, or some other luxury brands inspirational.
+Use the free [Typecast](https://typecast.com/) tool to discover suitable fonts.
+Fonts should complement one another. My rule of thumb is to choose a primary
+font for large bodies of text, and another one for generic UI elements such as
+sub-headings and captions. It can be challenging to find a typeface that
+beautifully represents your brand name (different letter combinations look
+different with certain fonts), but keep experimenting and you’ll eventually
+find something that satisfies your palate. If you like elegant design, you
+might find Gucci, BVLGARI, Louis Vuitton, Hermès, Rolex, or some other luxury
+brands inspirational.
 
 ## 3. Choose two chic colors + shades
 
 Pick two primary colors and add in a dozen different shades, including grays,
-and complementary colors. Use Adobe’s free color wheel tool to experiment with
-various combinations. Try not to saturate your color scheme by adding too many
-distinct colors. Stay minimal. If you have no clue whatsoever, feel free to
-“steal” colors from your scrapbook with an eyedropper tool and slightly adjust
-their RGB values.
+and complementary colors. Use
+[Adobe’s color wheel](https://color.adobe.com/create/color-wheel/) and
+the [Coolors](https://coolors.co) tool to try various combinations. Try not to
+saturate your color scheme by adding too many distinct colors. Stay minimal.
+If you have no clue, feel free to “steal” colors from your scrapbook with an
+eyedropper tool and slightly adjust their RGB values.
 
 ## 4. Don’t go too dark or too light
 
@@ -49,16 +50,17 @@ light).
 
 Isolate visual elements, especially text, from one another by providing ample
 whitespace. Neglecting whitespace makes your layout look like it was put
-together by a programmer.
+together by a typical programmer.
 
 ## 6. Add visual effects sparingly, especially animations and icons
 
 I don’t wish to push flat design down anyone’s throat, but a clean look is
-always more elegant than an overfiltered soup of special effects. This means
-that all 3D text effects are out, as are most gradients. Shadows can be cool
-when used properly, but be extra careful. Use subtle effects and animations
-as salt and pepper. Make your website’s logo spin instead of showing a
-generic spinner, but don’t animate every user interaction.
+always more elegant than a messy soup of special effects. This means that all
+3D text effects are out, as are most gradients. Shadows can be cool when used
+appropriately, but be extra careful. Use subtle effects and animations as salt
+and pepper. Make your website’s logo spin instead of showing a generic spinner,
+but don’t animate every user interaction. Animations should lead the user's
+attention.
 
 ## 7. Look for things to omit
 
@@ -105,7 +107,7 @@ menus, etc.
 
 ## 14. Take extended breaks
 
-Working for extended periods of time on the same design skews your visual
-judgment. It desensitizes and makes you ignore visual hiccups that you would
-normally notice. Take some time off the project. Allow yourself to sober up,
-and come back after a couple of days.
+Working for extended periods of time on the same design skews your judgment. It
+desensitizes and makes you ignore visual hiccups that you would normally
+notice. Take some time off the project. Allow yourself to sober up, and come
+back after a couple of days.
