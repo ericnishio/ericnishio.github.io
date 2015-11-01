@@ -5,11 +5,11 @@ permalink: /blog/how-i-built-this-website/
 ---
 
 > I recently rebuilt this website with Jekyll so the technology stack described
-> below no longer applies to the current version of the site (as of October
-> 2015). The reason why I switched to Jekyll is that I didn't really need all
-> the back-end services I had originally set up since I could simply serve the
-> content as static files on GitHub. The website itself is very minimal so I
-> decided to take an equally minimal approach and use
+> in this post no longer applies to the current version of the site (as of
+> October 2015). The reason why I switched to Jekyll is that I didn't really
+> need all the back-end services I had originally set up since I could simply
+> serve the content as static files on GitHub. The website itself is very
+> minimal so I decided to take an equally minimal approach and use
 > [Jekyll](https://jekyllrb.com) and [GitHub Pages](https://pages.github.com).
 
 ## Key technologies used
