@@ -50,7 +50,7 @@ light).
 
 Isolate visual elements, especially text, from one another by providing ample
 whitespace. Neglecting whitespace makes your layout look like it was put
-together by a typical programmer.
+together by a programmer.
 
 ## 6. Add visual effects sparingly, especially animations and icons
 
