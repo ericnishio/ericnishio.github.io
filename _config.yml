@@ -2,6 +2,8 @@ title:            ericnish.io
 description:      A front-end developer's portfolio and blog
 url:              http://ericnish.io
 
+gems:
+  - jekyll-feed
 links:
   - name:         Home
     dir:          /
