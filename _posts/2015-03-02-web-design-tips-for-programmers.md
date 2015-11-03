@@ -4,17 +4,17 @@ title: Web Design Tips for Programmers
 permalink: /blog/web-design-tips-for-programmers/
 ---
 
-I’m not a designer, but I recently redesigned my
-[self-education blog](http://www.self-learner.com) and I’d like to share some
-of the techniques I discovered and used in the process.
+I'm not a designer, but I recently gave my
+[self-education blog](http://www.self-learner.com) a face lift, so I thought
+I'd share some of the techniques I discovered and applied in the process.
 
 ## 1. Find inspiration on the web
 
-Before you begin, spend an hour searching for designs you personally like. Do
-some research on recent web design trends. Take screenshots of design elements
-you like, and stash them in a folder (I save them in Evernote). Start building
-a scrapbook. It will come in handy later when you’re stuck and in need of
-inspiration.
+Before getting your feet wet, spend an hour looking for designs you
+personally like. Do some research on recent web design trends. Take screenshots
+of design elements you like, and stash them in a folder (I save them in
+Evernote). Start building a scrapbook. It will come in handy later when you’re
+stuck and in need of inspiration.
 
 ## 2. Choose two elegant fonts
 
