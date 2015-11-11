@@ -30,7 +30,7 @@ var _keycloak; // expose Keycloak as a global variable
 
 angular.element(document).ready(() => {
   _keycloak = Keycloak({
-    // Your Keycloak JSON configuration
+    // your Keycloak JSON configuration
   });
 
   _keycloak
