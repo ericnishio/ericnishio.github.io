@@ -10,7 +10,7 @@ always needs to run first.
 
 This is how Keycloak handles authentication:
 
-1. Keycloak is loaded and run in your application.
+1. Keycloak.js is loaded and run in your application.
 2. Keycloak checks if the user is authenticated.
 3. If not, it redirects the user to Keycloak's login interface.
 4. On success, it redirects the user back to your application.
@@ -19,7 +19,7 @@ This happens on every page refresh so we need to handle authentication first
 and only after that manually bootstrap Angular.
 
 If you've previously "auto-bootstrapped" Angular in your index.html file with
-ng-app="yourApp", go ahead and remove it.
+ng-app="yourApp", go ahead and remove the line.
 
 Make sure you've loaded Keycloak's JavaScript library.
 
