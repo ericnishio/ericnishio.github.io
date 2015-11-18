@@ -11,13 +11,13 @@ play guitar, and read books. Some of the tools and technologies I like to use
 are:
 
 - AngularJS
-- Sails
+- Sails.js
 - Sass
 - Gulp
+- MongoDB
 - Twitter Bootstrap
 
 I speak and write fluent *English*, *Finnish*, and *Japanese*, and I can also
 converse in *Mandarin Chinese* and *Swedish*.
 
-I believe in minimalism and the
-[80–20 principle](http://en.wikipedia.org/wiki/Pareto_principle).
+I believe in minimalism and in being a Jack of All Trades, Master of Many.
