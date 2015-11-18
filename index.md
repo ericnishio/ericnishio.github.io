@@ -1,8 +1,8 @@
 ---
 layout: normal
-title: A front-end developer's portfolio and blog
+title: A front-end developer’s portfolio and blog
 heading: ericnish.io
-subheading: A front-end developer's portfolio and blog
+subheading: A front-end developer’s portfolio and blog
 ---
 
 Hi, I'm Eric Nishio and I specialize in *JavaScript*, *Node.js*, *CSS*, and
