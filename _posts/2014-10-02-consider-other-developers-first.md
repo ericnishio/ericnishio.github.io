@@ -5,7 +5,7 @@ permalink: /blog/consider-other-developers-first/
 ---
 
 [Maintaining a clean codebase]
-(http://ericnish.io/blog/the-importance-of-clean-code) is a good start for
+(http://ericnish.io/blog/the-importance-of-clean-code/) is a good start for
 keeping your buddies happy, but it helps little if building and deploying the
 code demands esoteric knowledge. And remember, you (or rather—the future you)
 are also your own naïve team member, so working in solitude doesn't guarantee
