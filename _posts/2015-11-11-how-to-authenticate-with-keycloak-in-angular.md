@@ -26,14 +26,12 @@ Make sure you've loaded Keycloak's JavaScript library.
 Then initialize Keycloak:
 
 {% highlight javascript %}
-var _keycloak; // expose Keycloak as a global variable
-
 angular.element(document).ready(() => {
-  _keycloak = Keycloak({
+  window._keycloak = Keycloak({
     // your Keycloak JSON configuration
   });
 
-  _keycloak
+  window._keycloak
     .init({
       onLoad: 'login-required'
     })
