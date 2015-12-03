@@ -4,7 +4,7 @@ title: My Vim Cheat Sheet
 permalink: /blog/vim-cheat-sheet/
 ---
 
-## Visual
+## Visual Mode
 
 - **V** select line
 - **v** select from current position
@@ -26,9 +26,12 @@ permalink: /blog/vim-cheat-sheet/
 - **d** cut selection
 - **y** copy selection
 - **p** paste
+- **:Ex** back to Explorer
 
-## Explorer
+## Explorer Mode (netrw)
 
+- **o** open file in a horizontally split view
+- **v** open file in a vertically split view
 - **D** delete file or directory
 - **%** create new file
 - **d** create new directory
