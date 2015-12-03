@@ -96,7 +96,7 @@ While Grunt is running, it will compile your stylesheets every time you commit
 changes to one of your LESS files. Go ahead and give it a try.
 
 As you keep configuring more tasks, your Gruntfile.js can easily grow into an
-unmanageable spaghetti beast so I suggest you also take a look at [how to
-split your Gruntfile.js into bite-sized pieces]
+unmanageable beast so I suggest you also take a look at [how to split your
+Gruntfile.js into bite-sized pieces]
 (http://ericnish.io/blog/how-to-neatly-separate-grunt-files/)
 while you still can.
