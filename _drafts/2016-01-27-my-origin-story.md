@@ -18,4 +18,4 @@ permalink: /blog/my-origin-story/
 - 2012 Learned object-oriented PHP, Yii, jQuery
 - 2013 Drupal
 - 2014 Angular, Node, Express, Sails
-- 2015 Ruby, React, Laravel, no more PHP
+- 2015 Ruby, React, Laravel, no more PHP, wrote a 2D platformer with Phaser and TypeScript
