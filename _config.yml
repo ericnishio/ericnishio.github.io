@@ -17,7 +17,7 @@ links:
     url:          /projects/
 highlighter:      pygments
 permalink:        /blog/:title/
-markdown:         redcarpet
+markdown:         kramdown
 redcarpet:
   extensions:
     - smart
