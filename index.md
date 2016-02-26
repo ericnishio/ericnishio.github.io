@@ -10,8 +10,9 @@ Hi, I'm Eric Nishio and I specialize in *JavaScript*, *Node.js*, *CSS*, and
 play guitar, and read books. Some of the tools and technologies I like to use
 are:
 
-- AngularJS
 - React
+- Redux
+- AngularJS
 - Sails.js
 - Sass
 - MongoDB
