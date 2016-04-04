@@ -13,8 +13,7 @@ $ sudo npm install -g karma-cli
 Add *karma* and *karma-jasmine* to your project's dependencies.
 
 ```
-$ npm install karma --save-dev
-$ npm install karma-jasmine --save-dev
+$ npm install karma jasmine karma-jasmine --save-dev
 ```
 
 Create your Karma configuration file:
