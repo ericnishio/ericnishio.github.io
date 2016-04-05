@@ -1,12 +1,11 @@
----
 layout: post
 title: What is an API?
 permalink: /blog/what-is-an-api/
 ---
 
-*API* is a nebulous term for rookies. The expression used everywhere but its
-definition appears to differ in various contexts. People talk about public
-APIs, RESTful APIs, email APIs, or the Java API.
+*API* is a nebulous term for rookies. The expression is used everywhere but
+its definition appears to differ in various contexts. People talk about
+public APIs, RESTful APIs, email APIs, or the Java API.
 
 An API is essentially just a set of controls you can interact with. It can
 literally be anything that can be interacted with.
