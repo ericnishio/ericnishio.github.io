@@ -15,3 +15,9 @@ $ bundle install
 ```
 $ bundle exec jekyll serve
 ```
+
+Include drafts:
+
+```
+$ bundle exec jekyll serve --drafts
+```
