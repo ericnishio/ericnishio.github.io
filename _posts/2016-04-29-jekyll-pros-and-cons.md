@@ -34,3 +34,4 @@ building your website with Jekyll, based on my own experiences.
 - No server-side scripting (e.g. contact forms).
 - Content cannot be dynamically presented (e.g. based on popularity).
 - Spinning up a local installation may intimidate non-programmers.
+- No post scheduling
