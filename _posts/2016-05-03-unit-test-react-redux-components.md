@@ -85,7 +85,7 @@ braces).
 
 The only difference between these two exports is that the Redux-connected
 component is decorated to receive its props through Redux, whereas the base
-component only assumes that it will eventually receive the props. Naturally,
+component only assumes that it will receive the props somehow. Naturally,
 the Redux-connected component will be used by the real application whereas
 the pure, base version can be used in unit tests.
 
