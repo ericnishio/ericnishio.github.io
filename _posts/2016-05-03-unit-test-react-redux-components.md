@@ -15,8 +15,8 @@ state or environment that the component needs to operate in. Instead,
 the component only reads the props, and is agnostic about their origins.
 
 This pattern allows you to isolate the component and test it without having
-to fabricate the entire application state and underlying architecture in your
-tests.
+to fabricate the entire application state and underlying infrastructure in
+your tests.
 
 Here's an example of a pure component:
 
