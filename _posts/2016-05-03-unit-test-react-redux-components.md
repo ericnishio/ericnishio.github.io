@@ -4,7 +4,7 @@ title: How to Unit Test React Redux Components
 permalink: /blog/how-to-unit-test-react-redux-components/
 ---
 
-*Please refer to the
+*Please check out the
 [official Enzyme/Mocha guide](http://airbnb.io/enzyme/docs/guides/mocha.html)
 if you're unsure how to set up a React test suite with Enzyme and Mocha.*
 
