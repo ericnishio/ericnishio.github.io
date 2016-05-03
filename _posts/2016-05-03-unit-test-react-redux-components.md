@@ -64,9 +64,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
-  const actions = {
-    likeComment
-  };
+  const actions = {likeComment};
 
   return bindActionCreators(actions, dispatch);
 }
