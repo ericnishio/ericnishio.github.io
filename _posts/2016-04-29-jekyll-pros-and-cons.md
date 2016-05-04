@@ -35,3 +35,4 @@ building your website with Jekyll, based on my own experiences.
 - Content cannot be dynamically presented (e.g. based on popularity).
 - Spinning up a local installation may intimidate non-programmers.
 - No post scheduling.
+- No image manipulation tool for interactively cropping and resizing images.
