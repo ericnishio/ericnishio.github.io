@@ -4,9 +4,8 @@ title: How to Unit Test React Redux Components
 permalink: /blog/how-to-unit-test-react-redux-components/
 ---
 
-> Please check out the
-> [official Enzyme/Mocha guide](http://airbnb.io/enzyme/docs/guides/mocha.html)
-> if you're unsure how to set up a React test suite with Enzyme and Mocha.
+> If you haven't yet got an existing Enzyme test suite, you can check out
+> [this tutorial](/blog/how-to-unit-test-react-components-with-enzyme).
 
 The cleanest way to unit test a React component is to serve a pure
 component whose entire state is passed to it as props. In other words,
