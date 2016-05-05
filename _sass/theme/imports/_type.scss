@@ -43,6 +43,13 @@ Styleguide 2.1
   font-size: 40px;
 }
 
+a {
+  &:hover {
+    background: #fff;
+    text-decoration: none;
+  }
+}
+
 p, ul, ol {
   margin-bottom: 20px;
 
@@ -52,8 +59,13 @@ p, ul, ol {
 }
 
 .em {
+  font-style: italic;
+}
+
+.strong {
   color: $gray-dark;
   font-style: normal;
+  font-weight: 400;
   text-shadow: 1px 0 2px $gray-medium;
 }
 
@@ -122,8 +134,11 @@ Markup:
 
 Styleguide 2.6
 */
+code,
 pre code,
 .code {
+  background-color: $gray-black;
+  border-radius: 0;
   color: $green-light;
   font-family: $inconsolata-font;
   font-size: 16px;

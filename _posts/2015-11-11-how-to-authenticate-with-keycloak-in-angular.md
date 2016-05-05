@@ -19,7 +19,7 @@ This happens on every page refresh so we need to handle authentication first
 and only after that manually bootstrap Angular.
 
 If you've previously "auto-bootstrapped" Angular in your index.html file with
-ng-app="yourApp", go ahead and remove the line.
+`ng-app="yourApp"`, go ahead and remove the line.
 
 Make sure you've loaded Keycloak's JavaScript library.
 
@@ -41,7 +41,7 @@ angular.element(document).ready(() => {
 });
 {% endhighlight %}
 
-I'd also recommend you create a simple wrapper for the global *_keycloak*
+I'd also recommend you create a simple wrapper for the global `_keycloak`
 variable to keep your code more modular and easier to refactor in the future:
 
 {% highlight javascript %}
@@ -50,8 +50,8 @@ angular.module('yourApp').factory('keycloak', $window => {
 });
 {% endhighlight %}
 
-Now you can inject *keycloak* whenever you need to access your Keycloak state,
-e.g. *keycloak.authenticated* or *keycloak.token*.
+Now you can inject `keycloak` whenever you need to access your Keycloak state,
+e.g. `keycloak.authenticated` or `keycloak.token`.
 
 Example:
 

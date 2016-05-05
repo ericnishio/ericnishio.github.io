@@ -40,7 +40,7 @@ This will initialize your testing environment and create a virtual DOM where
 the test runner will be able to mount your components. It will also decorate
 Chai's assertion library to support JSX and Enzyme.
 
-Next, let's add a *test* script to package.json:
+Next, let's add a `test` script to package.json:
 
 {% highlight javascript %}
 // package.json
@@ -53,7 +53,7 @@ Next, let's add a *test* script to package.json:
 {% endhighlight %}
 
 Running this script will boot up Mocha, load the bootstrap file, and run any
-test files in src that match the pattern **.test.js*.
+test files in src that match the pattern `*.test.js*`.
 
 Now let's create a new React component.
 

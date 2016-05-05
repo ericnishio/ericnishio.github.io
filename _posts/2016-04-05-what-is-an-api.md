@@ -20,17 +20,17 @@ When you write a function for a computer program, you are also creating or
 *exposing* an API. The function is a piece of code that can be interacted
 with:
 
-```js
+{% highlight javascript %}
 function steer(degrees) {
   // Logic for steering the car
 }
-```
+{% endhighlight %}
 
 Interaction takes place when we call the function:
 
-```js
+{% highlight javascript %}
 steer(-90);
-```
+{% endhighlight %}
 
 When we make an API call, we are asking the API to perform an operation for
 us. In essence, we’re delegating that operation to a specific part of the
@@ -49,7 +49,7 @@ Node.js application. SendGrid provides a Node.js library that acts as an
 API between the email service and your application. This means that you only
 need to know how to format your message and which function to call:
 
-```js
+{% highlight javascript %}
 const sendgrid = require('sendgrid')('abc123');
 
 sendgrid.send({
@@ -60,7 +60,7 @@ sendgrid.send({
   to: 'you@example.com',
   text: 'Please sign in to start using the service.'
 });
-```
+{% endhighlight %}
 
 As you can see, the API call is very minimal and does not contain any logic.
 The actual logic has been abstracted out by SendGrid’s API which means that

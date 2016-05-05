@@ -95,8 +95,8 @@ This makes it very easy to mock the state in unit tests since we can simulate
 various states and actions merely by passing our own fake versions as props.
 
 As an additional safe-guard, we've declared a set of prop types for our four
-props to ensure that *body* and *author* will contain string values,
-*numberOfLikes* will be assigned a number, and *likeComment* will be a
+props to ensure that `body` and `author` will contain string values,
+`numberOfLikes` will be assigned a number, and `likeComment` will be a
 function. If the component receives props that fail to satisfy these criteria,
 it will raise a warning.
 
@@ -143,7 +143,7 @@ describe('BlogComment', () => {
 });
 {% endhighlight %}
 
-The main thing to note here is that we've created an object called *props*
+The main thing to note here is that we've created an object called `props`
 which simply contains all of the four props required by our component, and
 we're explicitly passing them to the component by using the object spread
 operator. This is our mock state, but since our base component is pure, it

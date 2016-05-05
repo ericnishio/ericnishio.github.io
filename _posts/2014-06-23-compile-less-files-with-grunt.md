@@ -18,13 +18,13 @@ Alternatively, you can compile and install it from source.
 
 Globally install Grunt using the Node package manager:
 
-```
+{% highlight bash %}
 $ npm install -g grunt-cli
-```
+{% endhighlight %}
 
 ## Step 3: Create a Gruntfile.js
 
-Now create a file called *Gruntfile.js* in your project directory.
+Now create a file called `Gruntfile.js` in your project directory.
 
 Then copy and paste in the example configuration shown just below this
 paragraph. You'll just need to change the (commented) lines that define
@@ -70,27 +70,27 @@ under that directory.
 
 ## Step 4: Configure the package file
 
-If you do not have an existing *package.json* file in your project directory,
+If you do not have an existing `package.json` file in your project directory,
 create one:
 
-```
+{% highlight bash %}
 $ cd YOUR_PROJECT_DIRECTORY
 $ npm init
-```
+{% endhighlight %}
 
-Once you have a valid *package.json* file, execute:
+Once you have a valid `package.json` file, execute:
 
-```
-npm install grunt grunt-contrib-less grunt-contrib-watch jit-grunt --save-dev
-```
+{% highlight bash %}
+$ npm install grunt grunt-contrib-less grunt-contrib-watch jit-grunt --save-dev
+{% endhighlight %}
 
-This will install the required packages and add them to package.json.
+This will install the required packages and add them to `package.json`.
 
 ## Step 5: Start Grunt
 
-```
+{% highlight bash %}
 $ grunt
-```
+{% endhighlight %}
 
 While Grunt is running, it will compile your stylesheets every time you commit
 changes to one of your LESS files. Go ahead and give it a try.

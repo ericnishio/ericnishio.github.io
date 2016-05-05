@@ -29,6 +29,10 @@
     @extend .em;
   }
 
+  strong {
+    @extend .strong;
+  }
+
   ul {
     @extend .ul;
 
