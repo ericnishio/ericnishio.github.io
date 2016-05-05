@@ -18,7 +18,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         {% for link in site.links %}
-          {% if page.dir == link.dir %}
+          {% if page.url == link.url %}
           <li class="active"><a class="main" href="{{ link.url }}">{{ link.name }}</a></li>
           {% else %}
           <li><a class="main" href="{{ link.url }}">{{ link.name }}</a></li>
