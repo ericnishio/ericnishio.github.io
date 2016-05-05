@@ -12,7 +12,7 @@ so temptations to hack things up is commonplace.
 The harsh reality is that hacks have a deadly tendency to build up, and as your
 application grows, those unidentifiable nasties are going to make your life
 (and the lives of
-[your buddies](http://ericnish.io/blog/consider-other-developers-first/)) very
+[your buddies](/blog/consider-other-developers-first/)) very
 hard when you have a piece of software that barely stays intact.
 
 I’m also guilty of writing a fair share of dirty code, but I’ve been fortunate
@@ -35,5 +35,4 @@ GitHub to just admire the code you’ve proudly sculpted.
 Cleanliness is a habit that can and *must* be developed.
 
 Read more about the importance of being a disciplined programmer in my other
-post on
-[avoiding shitty first drafts](http://ericnish.io/blog/no-shitty-first-drafts).
+post on [avoiding shitty first drafts](/blog/no-shitty-first-drafts).

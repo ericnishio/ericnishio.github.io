@@ -4,7 +4,7 @@ title: Consider Other Developers First
 permalink: /blog/consider-other-developers-first/
 ---
 
-[Maintaining a clean codebase](http://ericnish.io/blog/the-importance-of-clean-code/)
+[Maintaining a clean codebase](/blog/the-importance-of-clean-code/)
 is a good start to keeping your buddies happy, but it helps little if building
 and deploying the code demands esoteric knowledge. And remember, you (or
 rather—the future you) are also your own naïve team member, so working in

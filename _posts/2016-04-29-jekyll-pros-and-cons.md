@@ -5,7 +5,7 @@ permalink: /blog/jekyll-pros-and-cons/
 ---
 
 This website originally started off as a Drupal site, after which I
-[rewrote it with AngularJS and Express](http://ericnish.io/blog/how-i-built-this-website/).
+[rewrote it with AngularJS and Express](/blog/how-i-built-this-website/).
 Then last year I decided to further simplify it by converting it into a
 static website with Jekyll. The motivation was to reduce maintenance
 and the cognitive load associated with taking care of an entire jungle
