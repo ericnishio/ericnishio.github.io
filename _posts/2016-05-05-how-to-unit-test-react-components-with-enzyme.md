@@ -94,3 +94,7 @@ Finally, let's run the test suite:
 {% highlight bash %}
 $ npm test
 {% endhighlight %}
+
+> If you have components that connect to a Redux store, you might also want to
+> check out my other guide where I show you [how to disconnect a React
+> component from a Redux store and unit test it separately](/blog/how-to-unit-test-react-redux-components/).
