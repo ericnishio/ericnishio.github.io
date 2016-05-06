@@ -51,8 +51,7 @@ export class BlogComment extends Component {
 }
 
 // Everything below here is just glue that binds the pure component to a
-// certain part of the Redux store, thus telling the component to take its
-// props from a Redux store.
+// certain part of the Redux store where it will read its props from.
 
 function mapStateToProps(state) {
   return {
@@ -100,7 +99,7 @@ props to ensure that `body` and `author` will contain string values,
 function. If the component receives props that fail to satisfy these criteria,
 it will raise a warning.
 
-We can now use the pure component (named component) for unit tests like so:
+We can now use the pure component (named export) for unit tests like so:
 
 {% highlight javascript %}
 import React from 'react';
