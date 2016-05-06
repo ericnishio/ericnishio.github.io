@@ -87,7 +87,7 @@ the pure, base version can be used in unit tests.
 
 Since we are specifically unit testing a component and making sure it works
 correctly as an independent program, we should not need to care whether it
-will receive its state via Redux or another origin, as long as the state is
+will receive its state via Redux or another source, as long as the state is
 given to it as props.
 
 This makes it very easy to mock the state in unit tests since we can simulate
