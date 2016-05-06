@@ -143,7 +143,7 @@ describe('BlogComment', () => {
 {% endhighlight %}
 
 The main thing to note here is that we've created an object called `props`
-which simply contains all of the four props required by our component, and
+which simply contains the four props that are required by our component, and
 we're explicitly passing them to the component by using the object spread
 operator. This is our mock state, but since our base component is pure, it
 behaves exactly the same way it would when receiving the state from a Redux
