@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Unit Test React Components with Enzyme
-permalink: /blog/how-to-unit-test-react-components-with-enzyme
+permalink: /blog/how-to-unit-test-react-components-with-enzyme/
 ---
 In this tutorial I'll show you how to set up a test suite for your React
 application by leveraging
