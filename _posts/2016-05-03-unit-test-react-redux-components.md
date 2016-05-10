@@ -5,7 +5,7 @@ permalink: /blog/how-to-unit-test-react-redux-components/
 ---
 
 > If you haven't got an existing Enzyme test suite up and running, you can
-> check out [this tutorial](/blog/how-to-unit-test-react-components-with-enzyme).
+> check out [this tutorial](/blog/how-to-unit-test-react-components-with-enzyme/).
 
 The cleanest way to unit test a React component is to serve a pure
 component whose entire state is passed to it as props. In other words,
