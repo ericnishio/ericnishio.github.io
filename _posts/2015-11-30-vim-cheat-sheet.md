@@ -26,6 +26,8 @@ permalink: /blog/vim-cheat-sheet/
 - `d` cut selection
 - `y` copy selection
 - `p` paste
+- `u` undo
+- `ctrl + r` redo
 - `:Ex` back to Explorer
 
 ## Explorer Mode (netrw)
