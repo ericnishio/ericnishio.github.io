@@ -10,13 +10,12 @@ Hi, I'm Eric Nishio and I specialize in **JavaScript**, **Node.js**, **CSS**, an
 play guitar, and read books. Some of the tools and technologies I like to use
 are:
 
-- React
-- Redux
-- AngularJS
-- Sails.js
-- Sass
-- MongoDB
-- Foundation
+- [React](https://facebook.github.io/react/)
+- [Redux](http://redux.js.org)
+- [Express](https://expressjs.com)
+- [Sass](http://sass-lang.com)
+- [MongoDB](https://www.mongodb.com)
+- [Heroku](https://www.heroku.com)
 
 I speak and write fluent **English**, **Finnish**, and **Japanese**, and I can also
 converse in **Mandarin Chinese** and **Swedish**.
