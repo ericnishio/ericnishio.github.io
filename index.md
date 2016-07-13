@@ -21,3 +21,7 @@ I speak and write fluent **English**, **Finnish**, and **Japanese**, and I can a
 converse in **Mandarin Chinese** and **Swedish**.
 
 I believe in minimalism and in being a Jack of All Trades, Master of Many.
+
+You can also find me on <a href="http://twitter.com/ericnishio" target="_blank">Twitter</a>,
+<a href="https://github.com/ericnishio" target="_blank">GitHub</a>, and
+<a href="https://www.instagram.com/ericnishio/" target="_blank">Instagram</a>.
