@@ -6,9 +6,8 @@ subheading: A front-end developer’s portfolio and blog
 ---
 
 Hi, I'm Eric Nishio and I specialize in **JavaScript**, **Node.js**, **CSS**, and
-**HTML**. When I'm not developing web apps I like to study Mandarin Chinese,
-play guitar, and read books. Some of the tools and technologies I like to use
-are:
+**HTML**. When I'm not developing web apps I like to read books, study Mandarin Chinese,
+and play video games. Some of the tools and technologies I like to use are:
 
 - <a href="https://facebook.github.io/react/" target="_blank">React</a>
 - <a href="http://redux.js.org" target="_blank">Redux</a>
