@@ -23,17 +23,17 @@ Create a bootstrap file with the following contents:
 {% highlight javascript %}
 // test/index.js
 
-import chai from 'chai';
-import chaiEnzyme from 'chai-enzyme';
-import chaiJsx from 'chai-jsx';
-import {jsdom} from 'jsdom';
+import chai from 'chai'
+import chaiEnzyme from 'chai-enzyme'
+import chaiJsx from 'chai-jsx'
+import {jsdom} from 'jsdom'
 
-chai.use(chaiEnzyme());
-chai.use(chaiJsx);
+chai.use(chaiEnzyme())
+chai.use(chaiJsx)
 
-global.document = jsdom('<!doctype html><html><body></body></html>');
-global.window = document.defaultView;
-global.navigator = global.window.navigator;
+global.document = jsdom('<!doctype html><html><body></body></html>')
+global.window = document.defaultView
+global.navigator = global.window.navigator
 {% endhighlight %}
 
 This will initialize your testing environment and create a virtual DOM where
@@ -60,11 +60,11 @@ Now let's create a new React component.
 {% highlight javascript %}
 // src/components/hello.js
 
-import React, {Component} from 'react';
+import React, {Component} from 'react'
 
 export class Hello extends Component {
   render() {
-    return <p>Hello world.</p>;
+    return <p>Hello world.</p>
   }
 }
 {% endhighlight %}
@@ -74,19 +74,19 @@ export class Hello extends Component {
 {% highlight javascript %}
 // src/components/hello.test.js
 
-import React from 'react';
-import {render} from 'enzyme';
-import {expect} from 'chai';
+import React from 'react'
+import {render} from 'enzyme'
+import {expect} from 'chai'
 
-import {Hello} from './hello';
+import {Hello} from './hello'
 
 describe('Hello', () => {
   it('should render text', () => {
-    const wrapper = render(<Hello />);
+    const wrapper = render(<Hello />)
 
-    expect(wrapper).to.have.text('Hello world.');
-  });
-});
+    expect(wrapper).to.have.text('Hello world.')
+  })
+})
 {% endhighlight %}
 
 Finally, let's run the test suite:
