@@ -20,20 +20,17 @@ your tests.
 Here's an example of a pure component:
 
 {% highlight javascript %}
-import React, {Component, PropTypes} from 'react';
-import {bindActionCreators} from 'redux';
-import {connect} from 'react-redux';
+import React, {Component, PropTypes} from 'react'
+import {connect} from 'react-redux'
 
-import {likeComment} from './redux-actions';
+import {likeComment} from './redux-actions'
 
 export class BlogComment extends Component {
-  static get propTypes() {
-    return {
-      body: PropTypes.string,
-      author: PropTypes.string,
-      numberOfLikes: PropTypes.number,
-      likeComment: PropTypes.func
-    };
+  static propTypes = {
+    body: PropTypes.string,
+    author: PropTypes.string,
+    numberOfLikes: PropTypes.number,
+    likeComment: PropTypes.func,
   }
 
   render() {
@@ -46,32 +43,24 @@ export class BlogComment extends Component {
           <button type="button" onClick={this.props.likeComment}>Like</button>
         </div>
       </div>
-    );
+    )
   }
 }
 
 // Everything below here is just glue that binds the pure component to a
 // certain part of the Redux store where it will read its props from.
 
-function mapStateToProps(state) {
-  return {
-    body: state.blogComment.body,
-    author: state.blogComment.author,
-    numberOfLikes: state.blogComment.numberOfLikes
-  };
-}
-
-function mapDispatchToProps(dispatch) {
-  const actions = {likeComment};
-
-  return bindActionCreators(actions, dispatch);
-}
+const mapStateToProps = (state) => ({
+  body: state.blogComment.body,
+  author: state.blogComment.author,
+  numberOfLikes: state.blogComment.numberOfLikes,
+})
 
 // And finally we export the Redux-connected component, which still is the
 // exact same pure component as before, but we've explicitly told it to read
 // the props from the Redux store:
 
-export default connect(mapStateToProps, mapDispatchToProps)(BlogComment);
+export default connect(mapStateToProps, {likeComment})(BlogComment)
 {% endhighlight %}
 
 The key point here is that we've exported two things in this module: the
@@ -102,12 +91,12 @@ it will raise a warning.
 We can now use the pure component (named export) for unit tests like so:
 
 {% highlight javascript %}
-import React from 'react';
-import {mount} from 'enzyme';
-import {expect} from 'chai';
-import sinon from 'sinon';
+import React from 'react'
+import {mount} from 'enzyme'
+import {expect} from 'chai'
+import sinon from 'sinon'
 
-import {BlogComment} from './blog-comment';
+import {BlogComment} from './blog-comment'
 
 describe('BlogComment', () => {
   it('should display comment body', () => {
@@ -116,30 +105,30 @@ describe('BlogComment', () => {
       body: 'Nice post!',
       author: 'Tiffany Wu',
       numberOfLikes: 10,
-      likeComment: () => {}
-    };
+      likeComment: () => {},
+    }
 
-    const wrapper = mount(<BlogComment {...props} />);
-    const body = wrapper.find('.blog-comment__body');
+    const wrapper = mount(<BlogComment {...props} />)
+    const body = wrapper.find('.blog-comment__body')
 
-    expect(body).to.have.text(props.body);
-  });
+    expect(body).to.have.text(props.body)
+  })
 
   it('should dispatch action when clicking like', () => {
     const props = {
       body: 'Nice post!',
       author: 'Tiffany Wu',
       numberOfLikes: 10,
-      likeComment: sinon.spy()
-    };
+      likeComment: sinon.spy(),
+    }
 
-    const wrapper = mount(<BlogComment {...props} />);
+    const wrapper = mount(<BlogComment {...props} />)
 
-    wrapper.find('button').simulate('click');
+    wrapper.find('button').simulate('click')
 
-    expect(props.likeComment.calledOnce).to.equal(true);
-  });
-});
+    expect(props.likeComment.calledOnce).to.equal(true)
+  })
+})
 {% endhighlight %}
 
 The main thing to note here is that we've created an object called `props`
