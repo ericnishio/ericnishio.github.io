@@ -12,7 +12,7 @@ sudo certbot certonly --manual
 ```
 
 3. When asked, enter your domain names (e.g. `example.com www.example.com`).
-4. Create the verification text files based on the URLs and contents given on the screen, and upload them to S3.
+4. Create the verification text files based on the URLs and contents given on the screen, and publish them.
 5. Go to [Amazon Certificate Manager](https://console.aws.amazon.com/acm/home?region=us-east-1#/).
 6. Click **Import a certificate**.
 7. View the new certificate data you created earlier:
