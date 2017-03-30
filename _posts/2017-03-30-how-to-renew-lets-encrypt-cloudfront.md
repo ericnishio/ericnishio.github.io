@@ -13,7 +13,7 @@ sudo certbot certonly --manual
 
 3. When asked, enter your domain names (e.g. `example.com www.example.com`).
 4. Create the verification text files based on the URLs and contents given on the screen, and upload them to S3.
-5. Go to Amazon Certificate Manager (https://console.aws.amazon.com/acm/home?region=us-east-1#/).
+5. Go to [Amazon Certificate Manager](https://console.aws.amazon.com/acm/home?region=us-east-1#/).
 6. Click **Import a certificate**.
 7. View the new certificate data you created earlier:
 
@@ -24,7 +24,7 @@ sudo cat /etc/letsencrypt/live/example.com/fullchain.pem # Certificate chain
 ```
 
 8. Copy and paste the data into the form and hit **Review and import**.
-9. Go to CloudFront (https://console.aws.amazon.com/cloudfront/home?region=us-east-1).
+9. Go to [CloudFront](https://console.aws.amazon.com/cloudfront/home?region=us-east-1).
 10. Select your Web distribution, and click **Edit**.
 11. Under **Custom SSL Certificate**, select the new certificate.
 12. Deploy the changes by hitting **Yes, Edit**.
