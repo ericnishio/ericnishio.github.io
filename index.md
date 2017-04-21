@@ -10,11 +10,10 @@ Hi, I'm Eric Nishio and I specialize in **JavaScript**, **Node.js**, **CSS**, an
 and play video games. Some of the tools and technologies I like to use are:
 
 - <a href="https://facebook.github.io/react/" target="_blank">React</a>
+- <a href="https://facebook.github.io/react-native/" target="_blank">React Native</a>
 - <a href="http://redux.js.org" target="_blank">Redux</a>
 - <a href="https://expressjs.com" target="_blank">Express</a>
-- <a href="http://sass-lang.com" target="_blank">Sass</a>
 - <a href="https://www.mongodb.com" target="_blank">MongoDB</a>
-- <a href="https://www.heroku.com" target="_blank">Heroku</a>
 
 I speak and write fluent **English**, **Finnish**, and **Japanese**, and I can also
 converse in **Mandarin Chinese** and **Swedish**.
