@@ -1,24 +1,9 @@
 .brand-logo {
   text-decoration: none;
   background-color: $brand-logo-background;
-  border-radius: 50%;
+  border-radius: 100%;
+  border: 7px solid #E6E6E6;
   margin: 10px 0;
   height: $navbar-brand-logo-size;
   width: $navbar-brand-logo-size;
-
-  .logo-text {
-    color: #fff;
-    display: table-cell;
-    font-family: $pt-serif-font;
-    font-size: 30px;
-    line-height: $navbar-brand-logo-size;
-    vertical-align: middle;
-    text-align: center;
-    width: 80px;
-    height: 80px;
-
-    span {
-      margin-top: -1px;
-    }
-  }
 }
