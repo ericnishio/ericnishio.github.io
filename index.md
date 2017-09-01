@@ -11,7 +11,7 @@ and play video games. Some of the tools and technologies I like to use are:
 
 - <a href="https://facebook.github.io/react/" target="_blank">React</a>
 - <a href="https://facebook.github.io/react-native/" target="_blank">React Native</a>
-- <a href="http://redux.js.org" target="_blank">Redux</a>
+- <a href="https://mobx.js.org" target="_blank">MobX</a>
 - <a href="https://expressjs.com" target="_blank">Express</a>
 - <a href="https://www.mongodb.com" target="_blank">MongoDB</a>
 
