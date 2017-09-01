@@ -8,17 +8,19 @@ subheading: My notes, tips, and lessons learned
 <div class="blog-ctrl">
   <div class="blog-posts">
     {% for post in site.posts %}
-    <article class="blog-post">
-      <a href="{{ post.url }}">
-        <div class="blog-post-teaser">
-          <div class="teaser-inner">
-            <h2 class="teaser-heading">
-              {{ post.title }}
-            </h2>
+      {% unless post.tags contains 'hidden' %}
+      <article class="blog-post">
+        <a href="{{ post.url }}">
+          <div class="blog-post-teaser">
+            <div class="teaser-inner">
+              <h2 class="teaser-heading">
+                {{ post.title }}
+              </h2>
+            </div>
           </div>
-        </div>
-      </a>
-    </article>
+        </a>
+      </article>
+      {% endunless %}
     {% endfor %}
   </div>
 </div>

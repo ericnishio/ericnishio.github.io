@@ -2,6 +2,8 @@
 layout: post
 title: Automatic created_at & modified_at with Angular and Firebase
 permalink: /blog/automatic-created-at-and-modified-at-with-angular-and-firebase/
+tags:
+  - hidden
 ---
 
 Instead of "manually" updating a record's created_at and modified_at timestamps

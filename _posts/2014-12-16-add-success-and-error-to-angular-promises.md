@@ -2,6 +2,8 @@
 layout: post
 title: How to Add .success() and .error() to Angular Promises
 permalink: /blog/add-success-and-error-to-angular-promises/
+tags:
+  - hidden
 ---
 
 First let's create a factory that will be responsible for creating deferred
