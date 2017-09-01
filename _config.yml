@@ -1,6 +1,6 @@
 title:            ericnish.io
 description:      A front-end developer's portfolio and blog
-url:              http://ericnish.io
+url:              https://ericnish.io
 
 gems:
   - jekyll-sitemap
