@@ -28,6 +28,7 @@ installed it comes with an assortment of
 - `git fetch && git checkout my-branch` checks out a remote branch
 - `git branch -d my-branch` deletes a branch locally
 - `git push origin :my-branch` deletes a branch remotely
+- `git branch -r` lists remote branches
 
 ## Tags
 
