@@ -48,3 +48,12 @@ installed it comes with an assortment of
 - `git log -p -S"console.log"` shows the commits that contain the searched text (use `-i` to ignore case and `--no-merges` to exclude merges)
 - `git log -p README.md` shows the commits and changes applied to a specific file
 - `git log -p --after="2 weeks ago" README.md` shows the commits and changes applied to a file after a date
+
+## Find a breaking commit with bisect
+
+1. `git bisect start` starts a bisect session
+2. `git bisect bad` marks the current commit as broken
+3. `git bisect good <COMMIT HASH>` marks a commit as healthy, and checks out the next testable commit
+4. Test the commit and run `git bisect bad` or `git bisect good`
+5. Keep marking and testing until Git finds the commit that first introduced the bug
+6. `git bisect reset` resets to the original state
