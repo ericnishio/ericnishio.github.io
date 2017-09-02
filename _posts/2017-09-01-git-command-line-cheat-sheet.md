@@ -10,11 +10,13 @@ many of them regularly so it helps to keep them in one place for easy reference.
 ## Setup
 
 - Add a remote repository `git remote add origin git@github.com:username/my-repo.git`
+- Push and set an upstream reference for a branch (first time only) `git push -u origin my-branch`
 
 ## Committing
 
 - Interactively stage changes hunk-by-hunk `git add --patch`
 - Amend the most recent commit `git commit --amend`
+- Amend the most recent commit without editing the message `git commit --amend --no-edit`
 
 ## Branching
 
