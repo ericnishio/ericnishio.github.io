@@ -45,3 +45,6 @@ installed it comes with an assortment of
 ## Visualization
 
 - `git log --oneline --decorate --graph --all` shows a graphical one-line-per-commit representation of all branches and commits
+- `git log -p -S"console.log"` shows the commits that contain the searched text (use `-i` to ignore case and `--no-merges` to exclude merges)
+- `git log -p README.md` shows the commits and changes applied to a specific file
+- `git log -p --after="2 weeks ago" README.md` shows the commits and changes applied to a file after a date
