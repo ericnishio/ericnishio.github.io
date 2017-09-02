@@ -51,7 +51,7 @@ installed it comes with an assortment of
 
 ## Find a breaking commit with bisect
 
-1. `git bisect start` starts a bisect session
+1. `git bisect start` begins a bisect session
 2. `git bisect bad` marks the current commit as broken
 3. `git bisect good <COMMIT HASH>` marks a commit as healthy, and checks out the next testable commit
 4. Test the commit and run `git bisect bad` or `git bisect good`
