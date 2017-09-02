@@ -7,6 +7,10 @@ permalink: /blog/git-command-line-cheat-sheet/
 Here's a list of Git commands I use on a regular basis. I also tend to forget
 many of them regularly so it helps to keep them in one place for easy reference.
 
+If you have [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh){:target="_blank"}
+installed it comes with an assortment of
+[Git aliases](https://github.com/robbyrussell/oh-my-zsh/blob/456341fd69c3e514e401f1c3c1726b77d733c86b/plugins/git/git.plugin.zsh#L41){:target="_blank"} that covers many of the commands listed below.
+
 ## Setup
 
 - `git remote add origin git@github.com:username/my-repo.git` adds a remote repository

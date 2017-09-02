@@ -48,6 +48,10 @@ a {
     background: #fff;
     text-decoration: none;
   }
+
+  &:focus {
+    text-decoration: none;
+  }
 }
 
 p, ul, ol {
