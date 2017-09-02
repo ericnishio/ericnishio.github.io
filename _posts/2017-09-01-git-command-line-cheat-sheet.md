@@ -9,34 +9,34 @@ many of them regularly so it helps to keep them in one place for easy reference.
 
 ## Setup
 
-- Add a remote repository `git remote add origin git@github.com:username/my-repo.git`
-- Push and set an upstream reference for a branch (first time only) `git push -u origin my-branch`
+- `git remote add origin git@github.com:username/my-repo.git` Add a remote repository
+- `git push -u origin my-branch` Push and set an upstream reference for a branch (first time only)
 
 ## Committing
 
-- Interactively stage changes hunk-by-hunk `git add --patch`
-- Amend the most recent commit `git commit --amend`
-- Amend the most recent commit without editing the message `git commit --amend --no-edit`
+- `git add --patch` Interactively stage changes hunk-by-hunk
+- `git commit --amend` Amend the most recent commit
+- `git commit --amend --no-edit` Amend the most recent commit without editing the message
 
 ## Branching
 
-- Create and check out a new branch `git checkout -b my-branch`
-- Check out a remote branch `git fetch && git checkout my-branch`
-- Delete a branch locally `git branch -d my-branch`
-- Delete a branch remotely `git push origin :my-branch`
+- `git checkout -b my-branch` Create and check out a new branch
+- `git fetch && git checkout my-branch` Check out a remote branch
+- `git branch -d my-branch` Delete a branch locally
+- `git push origin :my-branch` Delete a branch remotely
 
 ## Tags
 
-- Create a new tag `git tag 1.0.0`
-- Push all tags to origin `git push origin --tags`
-- Delete a tag locally `git tag -d 1.0.0`
-- Delete a tag remotely `git push origin :refs/tags/1.0.0`
+- `git tag 1.0.0` Create a new tag
+- `git push origin --tags` Push all tags to origin
+- `git tag -d 1.0.0` Delete a tag locally
+- `git push origin :refs/tags/1.0.0` Delete a tag remotely
 
 ## Cleaning up
 
-- Clear all uncommitted changes `git reset --hard`
-- Delete all untracked files and directories `git clean -f -d`
+- `git reset --hard` Clear all uncommitted changes
+- `git clean -f -d` Delete all untracked files and directories
 
 ## Visualization
 
-- See a graphical one-line-per-commit representation of all the branches and commits `git log --oneline --decorate --graph --all`
+- `git log --oneline --decorate --graph --all` See a graphical one-line-per-commit representation of all the branches and commits
