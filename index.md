@@ -5,9 +5,9 @@ heading: ericnish.io
 subheading: A front-end developer’s portfolio and blog
 ---
 
-Hi, I'm Eric Nishio and I specialize in **JavaScript**, **Node.js**, **CSS**, and
-**HTML**. When I'm not developing web apps I like to read books, study Mandarin Chinese,
-and play video games. Some of the tools and technologies I like to use are:
+Hi, I'm Eric Nishio and I specialize in **JavaScript** and **Node.js**. When I'm not
+building apps I like to read books, study languages, and play video games.
+Some of the tools and technologies I like to use are:
 
 - <a href="https://facebook.github.io/react/" target="_blank">React</a>
 - <a href="https://facebook.github.io/react-native/" target="_blank">React Native</a>
