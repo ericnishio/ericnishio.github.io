@@ -28,7 +28,7 @@ permalink: /blog/how-i-built-this-website/
 This website originally started off as an experiment—a simple prototype I was
 writing with AngularJS because I wanted to get better acquainted with the
 framework. But as I kept on adding more parts to it, it eventually evolved
-into ericnishio.com v2.0, with a fitting .io suffix.
+into ericnishio.com v2.0, with a fitting .io TLD.
 
 I had originally built the website with Drupal, but since Drupal sites tend to
 be slow unless you have effective caching mechanisms in place, I thought
@@ -39,7 +39,7 @@ So I stuck with the Angular prototype I had written, and took Express to
 construct a RESTful API for communicating with the client-side app.
 
 It took me a bit over a month (part-time) to complete the application base. So
-in mid-May,  2014, I decided to set up a fresh droplet (VPS) on [DigitalOcean](https://www.digitalocean.com/?refcode=fbbb0e38c242) and deploy
+in mid-May,  2014, I decided to set up a fresh VPS on [DigitalOcean](https://www.digitalocean.com/?refcode=fbbb0e38c242) and deploy
 the site. I wasn't expecting such a smooth first-time deployment experience,
 but things turned out surprisingly well. Running the API server on top of a
 minimal nginx configuration worked like a charm.
@@ -60,7 +60,7 @@ choosing a clean font and giving the elements ample whitespace around them. I
 also decided not to support image attachments so the syntax-highlighted code
 blocks are the only visual sugar added to the otherwise plain text blog posts.
 
-Now, if I were to do the same project over again, I would do some things
+If I were to do the same project over again, I would do some things
 differently. Although I'm overall very satisfied with what I was able to
 accomplish, the one thing I would do differently is use
 [Sails](http://sailsjs.org) for building the API. By utilizing the solid
