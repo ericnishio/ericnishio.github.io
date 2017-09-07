@@ -3,10 +3,6 @@
 
   .brand-link {
     text-decoration: none;
-    
-    &:hover {
-      background: transparent;
-    }
   }
 
   .navbar-nav {
@@ -21,4 +17,8 @@
   }
 }
 
-
+.brand-link {
+  &:hover {
+    background: transparent;
+  }
+}
