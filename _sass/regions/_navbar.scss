@@ -17,8 +17,6 @@
   }
 }
 
-.brand-link {
-  &:hover {
-    background: transparent;
-  }
+a.brand-link:hover {
+  background: transparent;
 }
