@@ -5,8 +5,11 @@ heading: ericnish.io
 subheading: A front-end developer’s portfolio and blog
 ---
 
-Hi, I'm Eric Nishio and I specialize in **JavaScript** and **Node.js**. When I'm not
-building apps I like to read books, study languages, and play video games.
+Hi, I'm Eric Nishio and I specialize in **JavaScript** and **Node.js**. My most recent
+personal project is [PennyClerk](https://pennyclerk.com)—an iOS & Android app for
+micromanaging your expenses and income.
+
+When I'm not building apps I like to read books, study languages, and play video games.
 Some of the tools and technologies I like to use are:
 
 - <a href="https://facebook.github.io/react/" target="_blank">React</a>
