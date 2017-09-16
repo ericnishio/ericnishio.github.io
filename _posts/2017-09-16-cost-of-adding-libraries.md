@@ -12,7 +12,7 @@ As time passes, libraries demand that you address any breaking changes introduce
 
 And as the number of libraries increases, so does the project's complexity. When mixed with the complexity of your own application code, you can imagine how challenging it can be to keep your codebase maintainable and efficient to work with.
 
-We know that unmaintainable projects often result in expensive and often unnecessary rewrites, which is a vicious cycle that keeps repeating itself unless the underlying issues are resolved.
+We know that unmaintainable projects often result in expensive and often unnecessary rewrites. It is a vicious cycle that keeps repeating itself unless the underlying issues are resolved.
 
 As a general rule, weigh your options with an economical mindset. Consider whether your codebase would truly benefit from a library, and think how it might affect maintainability months from now. Try to pick libraries that make your codebase simpler and smaller. Adopt mature and battle-tested libraries (also inspect their GitHub issues and stars). Switch libraries early as you find better replacements.
 
