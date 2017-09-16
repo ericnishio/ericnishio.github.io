@@ -8,7 +8,7 @@ Libraries are an important part of software development since they allow program
 
 But every library you install comes with a technical cost, which may not be apparent outright. As your program grows, the libraries often become more tightly integrated into the core of the application, making them an indispensable part of the system as a whole. Loose coupling and separation of concerns are noble strategies but they can rarely be implemented in their ideal forms, all of the time.
 
-As time passes, libraries demand that you address any breaking changes introduced by newer versions. Sometimes, especially in niche ecosystems like the React universe, libraries also depend on each other, further increasing the number of potential cross-compatibility issues.
+As time passes, libraries demand that you address any breaking changes introduced by newer versions. Often, especially in niche ecosystems like the React universe, libraries also depend on each other, further increasing the number of potential cross-compatibility issues.
 
 And as the number of libraries increases, so does the project's complexity. When mixed with the complexity of your own application code, you can imagine how challenging it can be to keep your codebase maintainable and efficient to work with.
 
