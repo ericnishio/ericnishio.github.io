@@ -25,9 +25,8 @@ $clear-sans-regular-font: 'Clear Sans Regular', helvetica, sans-serif;
 $clear-sans-thin-font: 'Clear Sans Thin', helvetica, sans-serif;
 $pt-serif-font: 'PT Serif', helvetica, sans-serif;
 $pt-sans-font: 'PT Sans', helvetica, sans-serif;
-$lato-font: 'Lato', sans-serif;
 $inconsolata-font: 'Inconsolata', monospace, courier;
-$font-family-sans-serif: $lato-font;
+$font-family-sans-serif: 'Merriweather Light', sans-serif;
 
 // Scaffolding
 
@@ -38,7 +37,7 @@ $line-break-size:       20px;
 
 // Typography
 
-$headings-font-family:    $lato-font;
+$headings-font-family:    $font-family-sans-serif;
 $headings-font-weight:    400;
 $headings-line-height:    1.1;
 $headings-color:          $gray-dark;
