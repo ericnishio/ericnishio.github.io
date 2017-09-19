@@ -14,6 +14,6 @@ And as the number of libraries increases, so does the project's complexity. When
 
 We know that unmaintainable projects often result in expensive and often unnecessary rewrites. It is a vicious cycle that keeps repeating itself unless the underlying issues are resolved.
 
-As a general rule, weigh your options with an economical mindset. Consider whether your codebase would truly benefit from a library, and think how it might affect maintainability months from now. Favor libraries that make your codebase simpler and smaller. Adopt mature and battle-tested libraries (also inspect their GitHub issues and stars). Switch libraries early as you find better replacements.
+As a general rule, weigh your options with an economical mindset. Consider whether your codebase would truly benefit from a library, and think how it might affect maintainability months from now. Favor libraries that make your codebase simpler and smaller. Adopt mature and battle-tested libraries. Inspect their GitHub issues and stars. Switch libraries early as you find better replacements.
 
 Admire your short list of dependencies.
