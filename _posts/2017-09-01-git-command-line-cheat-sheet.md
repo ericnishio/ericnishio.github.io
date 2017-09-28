@@ -53,7 +53,7 @@ installed it comes with an assortment of
 
 1. `git bisect start` begins a bisect session
 2. `git bisect bad` marks the current commit as broken
-3. `git bisect good <COMMIT HASH>` marks a commit as healthy, and checks out the next testable commit
+3. `git bisect good` marks the current commit as healthy, and checks out the next testable commit
 4. Test the commit and run `git bisect bad` or `git bisect good`
 5. Keep testing and marking until you are left with the commit that first introduced the bug
 6. `git bisect reset` resets to the original state
