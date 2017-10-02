@@ -18,8 +18,8 @@ Some of the tools and technologies I like to use are:
 - <a href="https://expressjs.com" target="_blank">Express</a>
 - <a href="https://www.mongodb.com" target="_blank">MongoDB</a>
 
-I speak and write fluent **English**, **Finnish**, and **Japanese**, and I can also
-converse in **Mandarin Chinese** and **Swedish**.
+I speak and write fluent **English**, **Finnish**, and **Japanese**. And I can also
+use **Mandarin Chinese**, **Swedish**, and **Spanish** casually.
 
 I believe in minimalism and in being a Jack of All Trades, Master of Many.
 
