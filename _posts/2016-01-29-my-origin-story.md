@@ -4,7 +4,7 @@ title: My Origin Story as a Developer
 permalink: /blog/my-origin-story/
 ---
 
-- 1997 Built my first home page in plain HTML with Microsoft Notepad
+- 1997 Built my first home page in plain HTML
 - 1997 Switched to Netscape Composer (a WYSIWYG HTML editor)
 - 1998 Switched to Microsoft FrontPage 98
 - 1999 Discovered CSS
