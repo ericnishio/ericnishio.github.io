@@ -14,7 +14,7 @@ permalink: /blog/my-origin-story/
 - 2007 More web design
 - 2009 WordPress theme development
 - 2011 Served as a webmaster in the military
-- 2011 Got hired as a full-time PHP developer
+- 2011 Hired as a full-time PHP developer
 - 2012 Learned object-oriented PHP, Yii, jQuery
 - 2013 Drupal
 - 2014 Angular, Node, Express, Sails
