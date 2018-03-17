@@ -5,10 +5,10 @@ permalink: /blog/my-origin-story/
 ---
 
 - 1997 Built my first home page in plain HTML
-- 1997 Switched to Netscape Composer (a WYSIWYG HTML editor)
+- 1997 Switched to Netscape Composer
 - 1998 Switched to Microsoft FrontPage 98
 - 1999 Discovered CSS
-- 2000 Discovered ASP and PHP (dynamic content), switched from tables to CSS layouts, and got paid to design websites
+- 2000 Discovered ASP and PHP, switched from tables to CSS layouts, and got paid to design websites
 - 2002 Dynamic templating in PHP
 - 2006 Learned the basics of MySQL and PHP
 - 2007 More web design
