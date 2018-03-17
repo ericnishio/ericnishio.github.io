@@ -12,12 +12,12 @@ permalink: /blog/my-origin-story/
 - 2002 Dynamic templating in PHP
 - 2006 Learned the basics of MySQL and PHP
 - 2007 More web design
-- 2009 WordPress theme development, Java basics
+- 2009 WordPress theme development
 - 2011 Served as a webmaster in the military
-- 2011 Got hired as a full-time web programmer
+- 2011 Got hired as a full-time PHP developer
 - 2012 Learned object-oriented PHP, Yii, jQuery
 - 2013 Drupal
 - 2014 Angular, Node, Express, Sails
-- 2015 Ruby, React, Laravel, wrote a 2D platformer with Phaser and TypeScript
+- 2015 Ruby, React, wrote a 2D platformer with Phaser and TypeScript
 - 2016 React, Redux
 - 2017 React Native, MobX, AWS Lambda
