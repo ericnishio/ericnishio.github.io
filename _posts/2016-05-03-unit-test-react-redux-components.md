@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Unit Test React Redux Components
+title: How to Unit Test React Components by Putting Redux Aside
 permalink: /blog/how-to-unit-test-react-redux-components/
 ---
 
