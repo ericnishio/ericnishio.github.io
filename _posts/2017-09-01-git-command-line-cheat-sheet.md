@@ -29,6 +29,7 @@ installed it comes with an assortment of
 - `git branch -d my-branch` deletes a branch locally
 - `git push origin :my-branch` deletes a branch remotely
 - `git branch -r` lists remote branches
+- `git branch -m current-branch-name new-branch-name` renames a branch
 
 ## Tags
 
