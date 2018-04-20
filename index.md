@@ -16,7 +16,7 @@ Some of the tools and technologies I like to use are:
 - <a href="https://facebook.github.io/react-native/" target="_blank">React Native</a>
 - <a href="https://mobx.js.org" target="_blank">MobX</a>
 - <a href="https://expressjs.com" target="_blank">Express</a>
-- <a href="https://flow.org" target="_blank">Flow</a>
+- <a href="https://www.typescriptlang.org" target="_blank">TypeScript</a> & <a href="https://flow.org" target="_blank">Flow</a>
 
 I speak and write fluent **English**, **Finnish**, and **Japanese**. And I can also
 use **Mandarin Chinese**, **Swedish**, and **Spanish** casually.
