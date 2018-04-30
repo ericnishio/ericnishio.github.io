@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Manually Renew a Let's Encrypt SSL Certificate on AWS CloudFront
+title: How to Renew a Let's Encrypt SSL Certificate on AWS CloudFront
 permalink: /blog/renew-lets-encrypt-ssl-certificate-aws-cloudfront/
 ---
 
