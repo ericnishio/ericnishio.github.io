@@ -6,10 +6,10 @@ permalink: /blog/jekyll-pros-and-cons/
 
 This website originally started off as a Drupal site, after which I
 [rewrote it with AngularJS and Express](/blog/how-i-built-this-website/).
-Then last year I decided to further simplify it by converting it into a
+Then in 2015 I decided to further simplify it by converting it into a
 static website with Jekyll. The motivation was to reduce maintenance
-and the cognitive load associated with taking care of an entire jungle
-when you just wanted to have a simple website.
+and the cognitive load associated with taking care of an unnecessarily
+complex system when you just wanted to have a simple website.
 
 I'd like to jot down some of the advantages and disadvantages of
 building your website with Jekyll, based on my own experiences.
