@@ -17,7 +17,7 @@ building your website with Jekyll, based on my own experiences.
 ## Pros
 
 - Jekyll requires no server maintenance.
-- No risk of getting hacked (unless somebody guesses your GitHub password).
+- Low risk of getting hacked (unless somebody acquires your GitHub credentials).
 - Jekyll is fast.
 - GitHub is your CMS.
 - All your content is versioned in Git.
