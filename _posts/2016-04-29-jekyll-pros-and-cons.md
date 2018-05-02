@@ -27,6 +27,7 @@ building your website with Jekyll, based on my own experiences.
 - GitHub manages 301 redirects and 404s for you.
 - Hosting is free on GitHub.
 - Custom domains are easy to set up.
+- Free SSL certificates for custom domains when hosting on GitHub!
 - The Jekyll community offers a plethora of plugins for customization.
 
 ## Cons
