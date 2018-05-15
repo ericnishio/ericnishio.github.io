@@ -31,6 +31,13 @@ installed it comes with an assortment of
 - `git branch -r` lists remote branches
 - `git branch -m current-branch-name new-branch-name` renames a branch
 
+## Stashing
+
+- `git stash save my-stash` saves your current changes in a new stash with a message
+- `git stash list` lists all your stashes
+- `git stash apply 0` restores a stash at index 0
+- `git stash drop 0` deletes a stash at index 0
+
 ## Tags
 
 - `git tag 1.0.0` creates a new tag
