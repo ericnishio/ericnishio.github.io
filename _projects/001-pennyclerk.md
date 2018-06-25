@@ -1,5 +1,5 @@
 ---
 title: PennyClerk
-description: An iPhone & Android app for micromanaging your daily expenses and savings. Also available as a web app.
+description: An iPhone & Android app for micromanaging your daily expenses and savings.
 website: https://pennyclerk.com
 ---
