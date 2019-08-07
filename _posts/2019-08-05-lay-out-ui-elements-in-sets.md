@@ -48,7 +48,7 @@ to `4` and write an if condition for the fourth item.
 
 Here's an example of how you would use it inside a React component:
 
-```jsx
+```javascript
 const DiagonalItems = ({items}) =>
   <ul style={...}>
     {
