@@ -4,7 +4,7 @@ title: How to Iterate and Lay Out UI Elements in Sets of X
 permalink: /blog/how-to-lay-out-ui-elements-in-sets/
 ---
 
-{% highlight %}
+```
 1
  2
   3
@@ -14,9 +14,9 @@ permalink: /blog/how-to-lay-out-ui-elements-in-sets/
 7
  8
   9
-{% endhighlight %}
+```
 
-{% highlight javascript %}
+```javascript
 const alignByIndex = (index) => {
   const place = index + 1
   const setSize = 3 // the number of items per set
@@ -33,4 +33,4 @@ const alignByIndex = (index) => {
     return 'flex-start'
   }
 }
-{% endhighlight %}
+```
