@@ -53,8 +53,12 @@ const Diagonals = ({items}) =>
   <ul style={...}>
     {
       items.map((item, index) => {
+        const style = {
+          alignSelf: alignByIndex(index)}
+        }
+      
         return (
-          <li key={item.id} style={{alignSelf: alignByIndex(index)}}>
+          <li key={item.id} style={style}>
             {item.title}
           </li>
         )
