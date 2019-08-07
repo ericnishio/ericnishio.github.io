@@ -45,3 +45,18 @@ const alignByIndex = (index) => {
 
 If you want to have sets of four, you only need to set `numberOfItemsPerSet`
 to `4` and write an if condition for the fourth item.
+
+Here's an example of how you would use it inside a React component:
+
+```jsx
+const DiagonalItems = ({items}) =>
+  <ul style={...}>
+    {
+      items.map((item, index) =>
+        <li key={item.id} style={{alignSelf: alignByIndex(index)}}>
+          {item.title}
+        </li>
+      )
+    }
+  </ul>
+```
