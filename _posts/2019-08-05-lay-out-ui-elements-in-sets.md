@@ -54,7 +54,7 @@ const Diagonals = ({items}) =>
     {
       items.map((item, index) => {
         const style = {
-          alignSelf: alignByIndex(index)}
+          alignSelf: alignByIndex(index),
         }
       
         return (
