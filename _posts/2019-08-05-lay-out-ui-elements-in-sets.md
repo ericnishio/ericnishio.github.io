@@ -48,15 +48,17 @@ to `4` and write an if condition for the fourth item.
 
 Here's an example of how you would use it inside a React component:
 
-```javascript
-const DiagonalItems = ({items}) =>
+```jsx
+const Diagonals = ({items}) =>
   <ul style={...}>
     {
-      items.map((item, index) =>
-        <li key={item.id} style={{alignSelf: alignByIndex(index)}}>
-          {item.title}
-        </li>
-      )
+      items.map((item, index) => {
+        return (
+          <li key={item.id} style={{alignSelf: alignByIndex(index)}}>
+            {item.title}
+          </li>
+        )
+      })
     }
   </ul>
 ```
